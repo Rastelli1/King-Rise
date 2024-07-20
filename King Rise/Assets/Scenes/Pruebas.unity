@@ -427,6 +427,7 @@ MonoBehaviour:
   obstacle:
   - {fileID: 5267680330396600107, guid: 491d8d06f4cd3d142b13145e2220b4fa, type: 3}
   - {fileID: 3372447336824031960, guid: 24d285b6251751b4bb6f5151977f9192, type: 3}
+  - {fileID: 8392680432262737738, guid: 76287e646cbe17643b1438b7082c3002, type: 3}
   camTransform: {fileID: 156940819}
   spawnInterval: 1
   platformSpawnXRange: 0.1
