@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class PlatformMove : MonoBehaviour
 {
-    public GameObject objetMove;
+    [SerializeField] GameObject objetMove;
 
-    public float velocity;
+    [SerializeField] float velocity;
 
     private Vector3 start;
     private Vector3 end;

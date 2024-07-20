@@ -10,7 +10,6 @@ public class PlataformSpawn : MonoBehaviour
     [SerializeField] Transform camTransform;
 
     [SerializeField] float spawnInterval = 1f; // Distancia constante entre plataformas
-    [SerializeField] float platformSpawnXRange = 0.1f; // Rango de posiciones en X para la generación de plataformas
     [SerializeField] float despawnDistance = 10f; // Distancia por debajo del jugador para eliminar plataformas
     private float nextSpawnY; // Altura en Y donde se generará la próxima plataforma
 
