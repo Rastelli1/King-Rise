@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 204630969}
   - component: {fileID: 204630970}
   m_Layer: 0
-  m_Name: Degrades
+  m_Name: Degrades Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -394,7 +394,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1854268238}
   - component: {fileID: 1854268237}
-  - component: {fileID: 1854268236}
   - component: {fileID: 1854268239}
   - component: {fileID: 1854268240}
   - component: {fileID: 1854268241}
@@ -405,18 +404,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1854268236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1854268235}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bf1be217f08eeb44804cec7191a1df6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1854268237
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -532,8 +519,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstacles:
   - {fileID: 9212066443187949376, guid: d21a0cb96ad3f4a4a9651c855ac54b4e, type: 3}
-  drag: 4
-  timeIntervalo: 2
+  drag: 8
+  timeIntervalo: 5
   pointEjeY: {fileID: 1895791557}
 --- !u!1 &1895791556
 GameObject:
@@ -545,7 +532,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1895791557}
   m_Layer: 0
-  m_Name: SpawnObtacle
+  m_Name: PointSpawnObtacle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
