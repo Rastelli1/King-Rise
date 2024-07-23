@@ -17,7 +17,7 @@ public class PlataformSpawn : MonoBehaviour
 
     void Start()
     {
-        nextSpawnY = camTransform.position.y + spawnInterval - 10; // Inicializar la primera posición de generación
+        nextSpawnY = camTransform.position.y + spawnInterval - 8; // Inicializar la primera posición de generación
         InitializePlatforms();
     }
 
@@ -32,6 +32,7 @@ public class PlataformSpawn : MonoBehaviour
         Vector3 spawnPosition = new Vector3(Random.Range(-3, 3), nextSpawnY + 10, 0); // Genera las plataforma en una posición aleatoria en el eje X
         GameObject newPlatform = Instantiate(obstacle[obstacles], spawnPosition, Quaternion.identity); // Instanciar la plataforma
         activePlatforms.Add(newPlatform);
+        nextSpawnY += spawnInterval;
     }
     void InitializePlatforms()
     {
