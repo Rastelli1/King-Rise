@@ -29,17 +29,22 @@ public class Move : MonoBehaviour
 
     private bool jump=false;
 
+    [Header("Aimaciones")]
+
+    private Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
         movimientohorizontal = Input.GetAxisRaw("Horizontal") * velocityMove;
-
+        animator.SetFloat("Horizontal", Mathf.Abs( movimientohorizontal ) );
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
@@ -48,7 +53,11 @@ public class Move : MonoBehaviour
 
     private void FixedUpdate()
     {
+        animator.SetBool("InFloor", inFloor);
         inFloor = Physics2D.OverlapBox(controllerFloor.position, boxDimensions, 0f, whatIsFloor);
+
+        
+
         Mover(movimientohorizontal*Time.fixedDeltaTime, jump);
     }
 

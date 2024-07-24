@@ -498,7 +498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3f74f09b810d144699345839467d602, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocityMove: 400
+  velocityMove: 100
   moveSuavizado: 0.3
   jumpForce: 400
   whatIsFloor:
@@ -619,7 +619,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 1477047954, guid: c971c3bb891b34841bc502f8eafc2faf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
