@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    //[SerializeField] GameObject panel;
+    [SerializeField] GameObject panel;
 
     private bool isPaused=false;
 
@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             PausedState();
+            PanelPaused();
         }
         
     }
@@ -43,15 +44,15 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    //private void  PanelPaused()
-    //{
-    //    if (isPaused)
-    //    {
-    //        panel.SetActive(true);
-    //    }
-    //    else
-    //    {
-    //        panel.SetActive(false);
-    //    }
-    //}
+    private void PanelPaused()
+    {
+        if (isPaused)
+        {
+            panel.SetActive(true);
+        }
+        else
+        {
+            panel.SetActive(false);
+        }
+    }
 }
