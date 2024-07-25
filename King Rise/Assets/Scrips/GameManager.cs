@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
         }
         
     }
-    private void PausedState()
+    public void PausedState()
     {
         isPaused = !isPaused;
 
@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void PanelPaused()
+    public void PanelPaused()
     {
         if (isPaused)
         {
