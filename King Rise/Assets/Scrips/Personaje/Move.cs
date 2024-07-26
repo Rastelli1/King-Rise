@@ -33,6 +33,10 @@ public class Move : MonoBehaviour
 
     private Animator animator;
 
+    [Header("Particulas")]
+
+    [SerializeField] private ParticleSystem particulas;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -48,6 +52,7 @@ public class Move : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
+            particulas.Play();
         }
     }
 

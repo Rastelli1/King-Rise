@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Net;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PlatformMove : MonoBehaviour
 {
@@ -13,6 +14,10 @@ public class PlatformMove : MonoBehaviour
     private Vector3 end;
     private Vector3 moveDirection;
 
+    private bool flip=false;
+
+    [SerializeField] private GameObject araña;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,8 +25,8 @@ public class PlatformMove : MonoBehaviour
 
         // Establecer las posiciones de los puntos start y end
 
-        start = new Vector3(-3, yPosition, transform.position.z);
-        end = new Vector3(3, yPosition, transform.position.z);
+        start = new Vector3(3, yPosition, transform.position.z);
+        end = new Vector3(-3, yPosition, transform.position.z);
         moveDirection = end;
     }
 
@@ -33,9 +38,23 @@ public class PlatformMove : MonoBehaviour
         if (objetMove.transform.position== end)
         {
             moveDirection = start;
+            Flip();
         }
         else if( objetMove.transform.position==start){
             moveDirection = end;
+            Flip();
         }
+    }
+
+    private void Flip()
+    {
+        if (araña!=null)
+        {
+            flip = !flip;
+            Vector3 escala = araña.transform.localScale;
+            escala.x *= -1;
+            araña.transform.localScale = escala;
+        }
+        
     }
 }
