@@ -9,9 +9,12 @@ public class Obstacle : MonoBehaviour
 
     Camera mainCamera ; // tomo referencia de la camara principal
 
+    private int rotationDirection; // 1 para derecha, -1 para izquierda
+
     private void Start()
     {
         mainCamera = Camera.main;
+        rotationDirection = Random.Range(0, 2) == 0 ? -1 : 1;
     }
     void Update()
     {
@@ -21,7 +24,7 @@ public class Obstacle : MonoBehaviour
 
     private void Rotation()
     {
-        float rotationAmount = rotationSpeed * Time.deltaTime;
+        float rotationAmount = rotationSpeed * Time.deltaTime * rotationDirection;
 
         transform.Rotate(Vector3.forward, rotationAmount);
     }

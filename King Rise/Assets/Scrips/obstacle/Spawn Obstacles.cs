@@ -33,7 +33,7 @@ public class SpawnObstacles : MonoBehaviour
 
     public void PositionGenerate() //genera una posicion aleatoria en el eje x
     {
-        float spawnPositionX= Random.Range(-3.5f , 3);
+        float spawnPositionX= Random.Range(-3.5f , 3.5f);
         Vector3 randompos= new Vector3 (spawnPositionX, pointEjeY.position.y);
         Instantiate(ObstaclesRandom(), randompos, Quaternion.identity);
     }
