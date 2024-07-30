@@ -5,6 +5,9 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] GameObject panel;
+    [SerializeField] GameObject gameOverPanel;
+
+    private bool state=false;
 
     private bool isPaused=false;
 
@@ -23,7 +26,7 @@ public class GameManager : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && state==false)
         {
             PausedState();
             PanelPaused();
@@ -55,4 +58,15 @@ public class GameManager : MonoBehaviour
             panel.SetActive(false);
         }
     }
+    public void GameOver()
+    {
+        gameOverPanel.SetActive(true);
+        PausedState();
+        state = true;
+    }
+    //public void Win()
+    //{
+    //    gameOverPanel.SetActive(true);
+    //    state = true;
+    //}
 }

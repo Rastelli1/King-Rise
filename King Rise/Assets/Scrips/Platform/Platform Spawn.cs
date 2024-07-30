@@ -17,7 +17,7 @@ public class PlataformSpawn : MonoBehaviour
 
     void Start()
     {
-        nextSpawnY = camTransform.position.y + spawnInterval - 9; // Inicializar la primera posición de generación
+        nextSpawnY = camTransform.position.y + spawnInterval - 14; // Inicializar la primera posición de generación
         InitializePlatforms();
     }
 

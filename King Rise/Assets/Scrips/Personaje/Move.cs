@@ -115,6 +115,17 @@ public class Move : MonoBehaviour
         {
             transform.parent = null;
         }
+        
     }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+
+        if (other.CompareTag("Object") )
+        {
+            GameManager.instance.GameOver();
+        }
+    }
+
+
 
 }
