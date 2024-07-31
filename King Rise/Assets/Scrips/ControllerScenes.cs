@@ -5,9 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class ControllerScenes : MonoBehaviour
 {
+    private Animator animator;
+
+
+    [SerializeField] private AnimationClip animacionFinal;
+
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
     public void Play()
     {
-        SceneManager.LoadScene("Pruebas", LoadSceneMode.Single);
+
+        StartCoroutine(Transition());
     }
 
     public void Menu()
@@ -23,5 +33,17 @@ public class ControllerScenes : MonoBehaviour
     void OnDisable()
     {
         Destroy(gameObject);
+    }
+
+    IEnumerator Transition()
+    {
+        animator.SetTrigger("Iniciar");
+        yield return new WaitForSeconds(animacionFinal.length);
+        SceneManager.LoadScene("Pruebas", LoadSceneMode.Single);
+    }
+    public void NewPlay()
+    {
+
+        SceneManager.LoadScene("Pruebas", LoadSceneMode.Single);
     }
 }
