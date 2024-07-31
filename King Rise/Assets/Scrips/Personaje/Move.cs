@@ -26,6 +26,8 @@ public class Move : MonoBehaviour
     [SerializeField] private Transform controllerFloor;
 
     [SerializeField] private bool inFloor;
+    private bool isOnMovingPlatform = true;
+    public bool isJumping = false;
 
     private bool jump=false;
 
@@ -53,6 +55,11 @@ public class Move : MonoBehaviour
         {
             jump = true;
             particulas.Play();
+        }
+        if (rb2D.velocity.y < 0 && isJumping)
+        {
+            // Permite el contacto con una nueva plataforma móvil sólo si está descendiendo
+            isJumping = false;
         }
     }
 
@@ -104,18 +111,20 @@ public class Move : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "PlatformMove")
+        if (collision.gameObject.CompareTag("PlatformMove") && !isJumping)
         {
-            transform.parent = collision.transform;
+            // Si el personaje no está en un salto potenciado, permite el salto
+            rb2D.AddForce(new Vector2(0f, jumpForce * 2));
+            isJumping = true; // Marca que el personaje está en un salto potenciado
+            isOnMovingPlatform = true; // Marca que el personaje está en una plataforma móvil
         }
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "PlatformMove")
+        if (collision.gameObject.CompareTag("PlatformMove") )
         {
-            transform.parent = null;
+            isOnMovingPlatform = true;
         }
-        
     }
     void OnTriggerEnter2D(Collider2D other)
     {
