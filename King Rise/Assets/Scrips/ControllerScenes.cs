@@ -31,6 +31,11 @@ public class ControllerScenes : MonoBehaviour
     {
         StartCoroutine(IntroTransition());
     }
+    public void Empezar()
+    {
+        animator.SetBool("GameOver", false);
+        StartCoroutine(TransitionEmpezar());
+    }
     public void Play()
     {
         animator.SetBool("GameOver", false);
@@ -39,7 +44,7 @@ public class ControllerScenes : MonoBehaviour
 
     public void Menu()
     {
-        SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+        SceneManager.LoadScene("Menu");
     }
 
     public void Exit()
@@ -51,18 +56,24 @@ public class ControllerScenes : MonoBehaviour
     {
         Destroy(gameObject);
     }
-
+    IEnumerator TransitionEmpezar()
+    {
+        animator.SetBool("Play", true);
+        yield return new WaitForSecondsRealtime(animacionFinal.length);
+        SceneManager.LoadScene("Pruebas");
+    }
     IEnumerator Transition()
     {
         animator.SetBool("Play", true);
         yield return new WaitForSecondsRealtime(animacionFinal.length);
-        SceneManager.LoadScene("Pruebas", LoadSceneMode.Single);
+        SceneManager.LoadScene("Pruebas");
+        GameManager.instance.PausedState();
     }
     IEnumerator IntroTransition()
     {
         animator.SetBool("Play", true);
         yield return new WaitForSecondsRealtime(animacionFinal.length);
-        SceneManager.LoadScene("Intro", LoadSceneMode.Single);
+        SceneManager.LoadScene("Intro");
     }
     public void NewPlay(Action onComplete)
     {

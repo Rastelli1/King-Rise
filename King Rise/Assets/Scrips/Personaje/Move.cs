@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Move : MonoBehaviour
 {
@@ -18,11 +19,14 @@ public class Move : MonoBehaviour
     [SerializeField] private Vector3 boxDimensions;
     [SerializeField] private Transform controllerFloor;
 
+    [SerializeField] private AnimationClip animacionDead;
+
     private bool inFloor;
     private bool isOnMovingPlatform;
     public bool isJumping = false;
 
     private bool jump = false;
+    private bool dead = false;
 
     [Header("Animaciones")]
     private Animator animator;
@@ -38,9 +42,10 @@ public class Move : MonoBehaviour
 
     private void Update()
     {
+        
         movimientohorizontal = Input.GetAxisRaw("Horizontal") * velocityMove;
         animator.SetFloat("Horizontal", Mathf.Abs(movimientohorizontal));
-
+        
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
@@ -64,6 +69,7 @@ public class Move : MonoBehaviour
 
     private void Mover(float mover, bool jumping)
     {
+        if (dead) return;
         Vector3 velocityObjetivo = new Vector2(mover, rb2D.velocity.y);
         rb2D.velocity = Vector3.SmoothDamp(rb2D.velocity, velocityObjetivo, ref velocity, moveSuavizado);
 
@@ -122,7 +128,18 @@ public class Move : MonoBehaviour
     {
         if (other.CompareTag("Object"))
         {
-            GameManager.instance.GameOver();
+            
+            StartCoroutine(Dead());
         }
+    }
+    IEnumerator Dead()
+    {
+        dead = true;
+        animator.SetBool("Dead", true);
+        rb2D.velocity = Vector2.zero; 
+        rb2D.gravityScale = 0;
+        movimientohorizontal = 0f;
+        yield return new WaitForSecondsRealtime(animacionDead.length);
+        GameManager.instance.GameOver();
     }
 }

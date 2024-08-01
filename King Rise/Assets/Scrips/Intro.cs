@@ -19,6 +19,6 @@ public class Intro : MonoBehaviour
     IEnumerator Transition()
     {
         yield return new WaitForSecondsRealtime(5);
-        ControllerScenes.instance.Play();
+        ControllerScenes.instance. Empezar();
     }
 }
