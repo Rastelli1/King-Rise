@@ -23,7 +23,6 @@ public class GameManager : MonoBehaviour
     private int days = 0;
 
     private bool state=false;
-
     private bool isPaused=false;
 
     public static GameManager instance {  get; private set; }
@@ -84,11 +83,16 @@ public class GameManager : MonoBehaviour
     }
     public void GameOver()
     {
-        gameOverPanel.SetActive(true);
-        PausedState();
-        textPanel.SetActive(false);
-        dayFinal.text =""+days;
         state = true;
+        PausedState();
+        ControllerScenes.instance.NewPlay(() =>
+        {
+            // Código que se ejecuta después de que NewPlay y TransitionGameOver terminan
+            gameOverPanel.SetActive(true);
+            
+            textPanel.SetActive(false);
+            dayFinal.text = "" + days;
+        });
     }
     //public void Win()
     //{
@@ -105,5 +109,9 @@ public class GameManager : MonoBehaviour
             positionInicio = player.position.y;
             meta = positionInicio + metaAlcanzar;
         }
+    }
+    public bool Transitions()
+    {
+        return state;
     }
 }
