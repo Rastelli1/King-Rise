@@ -563,7 +563,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 806093151}
         m_TargetAssemblyTypeName: ControllerScenes, Assembly-CSharp
-        m_MethodName: Play
+        m_MethodName: Intro
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

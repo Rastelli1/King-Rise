@@ -27,6 +27,10 @@ public class ControllerScenes : MonoBehaviour
             instance = this;
         }
     }
+    public void Intro()
+    {
+        StartCoroutine(IntroTransition());
+    }
     public void Play()
     {
         animator.SetBool("GameOver", false);
@@ -53,6 +57,12 @@ public class ControllerScenes : MonoBehaviour
         animator.SetBool("Play", true);
         yield return new WaitForSecondsRealtime(animacionFinal.length);
         SceneManager.LoadScene("Pruebas", LoadSceneMode.Single);
+    }
+    IEnumerator IntroTransition()
+    {
+        animator.SetBool("Play", true);
+        yield return new WaitForSecondsRealtime(animacionFinal.length);
+        SceneManager.LoadScene("Intro", LoadSceneMode.Single);
     }
     public void NewPlay(Action onComplete)
     {

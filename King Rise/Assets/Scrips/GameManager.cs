@@ -110,8 +110,4 @@ public class GameManager : MonoBehaviour
             meta = positionInicio + metaAlcanzar;
         }
     }
-    public bool Transitions()
-    {
-        return state;
-    }
 }
