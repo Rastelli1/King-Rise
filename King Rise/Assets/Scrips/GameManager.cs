@@ -17,25 +17,24 @@ public class GameManager : MonoBehaviour
     [SerializeField] TMP_Text textScore;
     [SerializeField] TMP_Text dayFinal;
 
-    private float positionInicio;
-    private float meta;
 
     private int days = 0;
 
-    private bool state=false;
-    private bool isPaused=false;
+    private bool state = false;
+    private bool isPaused = false;
 
-    public static GameManager instance {  get; private set; }
+    public static GameManager instance { get; private set; }
 
     private void Start()
     {
-        positionInicio= player.position.y;
-        meta=positionInicio + metaAlcanzar;
         textScore.text = "DAY: " + days;
+
+        StartCoroutine(DayTimer()); // Start the coroutine to advance days every 20 seconds
     }
+
     private void Awake()
     {
-        if(instance != null && instance!= this)
+        if (instance != null && instance != this)
         {
             Destroy(this);
         }
@@ -44,16 +43,16 @@ public class GameManager : MonoBehaviour
             instance = this;
         }
     }
+
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && state==false)
+        if (Input.GetKeyDown(KeyCode.Escape) && !state)
         {
             PausedState();
             PanelPaused();
-            
         }
-        NextDay();
     }
+
     public void PausedState()
     {
         isPaused = !isPaused;
@@ -81,6 +80,7 @@ public class GameManager : MonoBehaviour
             textPanel.SetActive(true);
         }
     }
+
     public void GameOver()
     {
         state = true;
@@ -89,25 +89,23 @@ public class GameManager : MonoBehaviour
         {
             // Código que se ejecuta después de que NewPlay y TransitionGameOver terminan
             gameOverPanel.SetActive(true);
-            
             textPanel.SetActive(false);
             dayFinal.text = "" + days;
         });
     }
-    //public void Win()
-    //{
-    //    gameOverPanel.SetActive(true);
-    //    state = true;
-    //}
+
+    private IEnumerator DayTimer()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(metaAlcanzar); // Wait for 20 seconds
+            NextDay(); // Advance to the next day
+        }
+    }
 
     public void NextDay()
     {
-        if (player.position.y>= meta)
-        {
-            days = days + 1;
-            textScore.text = "DAY: " + days;
-            positionInicio = player.position.y;
-            meta = positionInicio + metaAlcanzar;
-        }
+        days = days + 1;
+        textScore.text = "DAY: " + days;
     }
 }
