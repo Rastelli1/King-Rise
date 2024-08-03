@@ -70,6 +70,7 @@ public class Move : MonoBehaviour
     private void Mover(float mover, bool jumping)
     {
         if (dead) return;
+
         Vector3 velocityObjetivo = new Vector2(mover, rb2D.velocity.y);
         rb2D.velocity = Vector3.SmoothDamp(rb2D.velocity, velocityObjetivo, ref velocity, moveSuavizado);
 
@@ -85,7 +86,8 @@ public class Move : MonoBehaviour
         if (inFloor && jumping)
         {
             inFloor = false;
-            rb2D.AddForce(new Vector2(0f, jumpForce));
+            rb2D.velocity = new Vector2(rb2D.velocity.x, 0f); // Reset vertical velocity
+            rb2D.velocity = new Vector2(rb2D.velocity.x, jumpForce); // Set consistent jump velocity
         }
 
         jump = false;
@@ -109,9 +111,10 @@ public class Move : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("PlatformMove") && !isJumping)
         {
-            rb2D.AddForce(new Vector2(0f, jumpForce * 2));
             isJumping = true;
             isOnMovingPlatform = true;
+            rb2D.velocity = new Vector2(rb2D.velocity.x, 0f); // Reset vertical velocity when landing on moving platform
+            rb2D.velocity = new Vector2(rb2D.velocity.x, jumpForce + 2); // Set increased jump velocity
         }
     }
 
