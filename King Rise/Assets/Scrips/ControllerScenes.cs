@@ -60,14 +60,21 @@ public class ControllerScenes : MonoBehaviour
     {
         animator.SetBool("Play", true);
         yield return new WaitForSecondsRealtime(animacionFinal.length);
+        if (Time.timeScale == 0f)
+        {
+            GameManager.instance.PausedState();
+        }
         SceneManager.LoadScene("Pruebas");
     }
     IEnumerator Transition()
     {
         animator.SetBool("Play", true);
         yield return new WaitForSecondsRealtime(animacionFinal.length);
+        if (Time.timeScale == 0f)
+        {
+            GameManager.instance.PausedState();
+        }
         SceneManager.LoadScene("Pruebas");
-        GameManager.instance.PausedState();
     }
     IEnumerator IntroTransition()
     {
