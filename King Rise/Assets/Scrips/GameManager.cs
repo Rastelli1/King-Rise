@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject gameOverPanel;
     [SerializeField] GameObject textPanel;
     [SerializeField] Transform player;
+    private AudioSource audioSource;
 
     [SerializeField] float metaAlcanzar;
 
@@ -28,7 +29,8 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         textScore.text = "DAY: " + days;
-
+        audioSource = GetComponent<AudioSource>();
+        audioSource.Play();
         StartCoroutine(DayTimer()); // Start the coroutine to advance days every 20 seconds
     }
 

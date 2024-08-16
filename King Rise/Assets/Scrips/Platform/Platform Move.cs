@@ -9,7 +9,8 @@ public class PlatformMove : MonoBehaviour
     [SerializeField] GameObject objetMove;
     [SerializeField] float velocity;
     [SerializeField] private GameObject araña;
-
+    private AudioSource audioSource;
+    [SerializeField] AudioClip deathSound; // Asocia el clip de audio desde el Inspector
     [Header("Animaciones")]
     private Animator animator;
     private Rigidbody2D rb2D; // Referencia al Rigidbody2D del objeto padre
@@ -27,7 +28,7 @@ public class PlatformMove : MonoBehaviour
     void Start()
     {
         rb2D = GetComponentInParent<Rigidbody2D>(); // Obtén el Rigidbody2D del objeto padre
-
+        audioSource = GetComponent<AudioSource>();
         // Obtener el Animator del hijo
         animator = GetComponentInChildren<Animator>();
 
@@ -89,6 +90,8 @@ public class PlatformMove : MonoBehaviour
                 if (animator != null)
                 {
                     animator.SetBool("Dead", true);
+                    audioSource.PlayOneShot(deathSound);
+                    audioSource.mute = false;
                 }
                 StartFalling();
             }
