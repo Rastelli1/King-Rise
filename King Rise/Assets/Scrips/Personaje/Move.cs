@@ -34,10 +34,15 @@ public class Move : MonoBehaviour
     [Header("Partículas")]
     [SerializeField] private ParticleSystem particulas;
 
+    [Header("Sonido")]
+    private AudioSource death;
+
     private void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        death=GetComponent<AudioSource>();
+        death.Stop();
     }
 
     private void Update()
@@ -139,6 +144,7 @@ public class Move : MonoBehaviour
     {
         dead = true;
         animator.SetBool("Dead", true);
+        death.Play();
         rb2D.velocity = Vector2.zero; 
         rb2D.gravityScale = 0;
         movimientohorizontal = 0f;

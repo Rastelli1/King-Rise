@@ -10,14 +10,28 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject panel;
     [SerializeField] GameObject gameOverPanel;
     [SerializeField] GameObject textPanel;
+    [SerializeField] GameObject panelFinalPisos;
     [SerializeField] Transform player;
-    private AudioSource audioSource;
 
     [SerializeField] float metaAlcanzar;
 
-    [SerializeField] TMP_Text textScore;
+   //[SerializeField] TMP_Text textScore;
     [SerializeField] TMP_Text dayFinal;
 
+    [Header("Sonido")]
+    [SerializeField] private AudioSource backgroundMusicSource;
+    [SerializeField] private AudioSource deathMusicSource;
+    [SerializeField] private AudioClip levelMusic; // Música del nivel
+    [SerializeField] private AudioClip deathMusic; // Música de muerte
+
+    [Header("Sistema de pisos")]
+    [SerializeField] TMP_Text pisos;
+    [SerializeField] TMP_Text pisoFinal;
+    [SerializeField] private float intervaloDePisos = 10f;
+    private float posicionPlayer;
+    private float intervaloPisos = 10f;
+    private float pisoAllegar;
+    private int pisoActual = 0;
 
     private int days = 0;
 
@@ -28,9 +42,14 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        textScore.text = "DAY: " + days;
-        audioSource = GetComponent<AudioSource>();
-        audioSource.Play();
+        panelFinalPisos.SetActive(false);
+        posicionPlayer =player.position.y;
+        pisoActual = 0;
+        pisoAllegar = posicionPlayer + intervaloPisos;
+        //textScore.text = "DAY: " + days;
+        pisos.text = "" + pisoActual;
+        StopDeathMusic();
+        PlayLevelMusic();
         StartCoroutine(DayTimer()); // Start the coroutine to advance days every 20 seconds
     }
 
@@ -53,8 +72,42 @@ public class GameManager : MonoBehaviour
             PausedState();
             PanelPaused();
         }
+        Aumentarpiso();
+    }
+    public void PlayLevelMusic()
+    {
+        if (backgroundMusicSource != null && levelMusic != null)
+        {
+            backgroundMusicSource.clip = levelMusic;
+            backgroundMusicSource.loop = true;
+            backgroundMusicSource.Play();
+        }
     }
 
+    public void PlayDeathMusic()
+    {
+        if (deathMusicSource != null && deathMusic != null)
+        {
+            deathMusicSource.clip = deathMusic;
+            deathMusicSource.loop = false;
+            deathMusicSource.Play();
+        }
+    }
+
+    public void StopLevelMusic()
+    {
+        if (backgroundMusicSource != null)
+        {
+            backgroundMusicSource.Stop();
+        }
+    }
+    public void StopDeathMusic()
+    {
+        if (deathMusicSource != null)
+        {
+            deathMusicSource.Stop();
+        }
+    }
     public void PausedState()
     {
         isPaused = !isPaused;
@@ -85,14 +138,21 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+        
         state = true;
-        PausedState();
+        StopLevelMusic();
+        PausedState(); 
+        textPanel.SetActive(false);
         ControllerScenes.instance.NewPlay(() =>
         {
+            
             // Código que se ejecuta después de que NewPlay y TransitionGameOver terminan
             gameOverPanel.SetActive(true);
-            textPanel.SetActive(false);
+            
+            panelFinalPisos.SetActive(true);
+            PlayDeathMusic();
             dayFinal.text = "" + days;
+            pisoFinal.text = "" + pisoActual;
         });
     }
 
@@ -108,6 +168,16 @@ public class GameManager : MonoBehaviour
     public void NextDay()
     {
         days = days + 1;
-        textScore.text = "DAY: " + days;
+        //textScore.text = "DAY: " + days;
+    }
+
+    private void Aumentarpiso() {
+        if(player.position.y>= pisoAllegar)
+        {
+            posicionPlayer = player.position.y;
+            pisoAllegar = posicionPlayer+ intervaloPisos;
+            pisoActual = pisoActual+ 1;
+            pisos.text = "" + pisoActual;
+        }
     }
 }
