@@ -142,11 +142,12 @@ public class GameManager : MonoBehaviour
         state = true;
         StopLevelMusic();
         PausedState(); 
-        textPanel.SetActive(false);
         ControllerScenes.instance.NewPlay(() =>
         {
-            
+
             // Código que se ejecuta después de que NewPlay y TransitionGameOver terminan
+
+            textPanel.SetActive(false);
             gameOverPanel.SetActive(true);
             
             panelFinalPisos.SetActive(true);
@@ -176,7 +177,7 @@ public class GameManager : MonoBehaviour
         {
             posicionPlayer = player.position.y;
             pisoAllegar = posicionPlayer+ intervaloPisos;
-            pisoActual = pisoActual+ 1;
+            pisoActual = pisoActual+ 5;
             pisos.text = "" + pisoActual;
         }
     }
