@@ -14,14 +14,23 @@ public class ControlSelection : MonoBehaviour
     }
 
     public ButtonInfo[] buttons;           // Array de botones
-
+    public Listas skins;
+    private int contadorSkins = 0;
 
     void Start()
     {
+        if (!PlayerPrefs.HasKey("contadorSkins"))
+        {
+            contadorSkins = 0; // Si no hay una skin seleccionada, usa la básica (primera de la lista)
+        }
+        else
+        {
+            Cargar(); // Cargar la skin previamente seleccionada
+        }
 
         for (int i = 0; i < buttons.Length; i++)
         {
-            //  asegurarse de que las imágenes hijas estén desactivadas
+            // Asegurarse de que las imágenes hijas estén desactivadas
             if (buttons[i].childObject != null)
             {
                 buttons[i].childObject.SetActive(false);
@@ -42,6 +51,12 @@ public class ControlSelection : MonoBehaviour
             entryExit.eventID = EventTriggerType.PointerExit;
             entryExit.callback.AddListener((eventData) => { OnPointerExit(index); });
             trigger.triggers.Add(entryExit);
+        }
+
+        // Activar la skin seleccionada previamente o la básica si no hay una selección previa
+        if (buttons[contadorSkins].childObject != null)
+        {
+            buttons[contadorSkins].childObject.SetActive(true);
         }
     }
 
@@ -67,5 +82,15 @@ public class ControlSelection : MonoBehaviour
 
         var colors = buttons[index].button.colors;
         buttons[index].button.colors = colors;
+    }
+
+    private void Guardar()
+    {
+        PlayerPrefs.SetInt("contadorSkins", contadorSkins);
+    }
+
+    private void Cargar()
+    {
+        contadorSkins = PlayerPrefs.GetInt("contadorSkins");
     }
 }

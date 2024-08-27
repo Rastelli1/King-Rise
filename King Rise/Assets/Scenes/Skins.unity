@@ -403,6 +403,7 @@ MonoBehaviour:
     childObject: {fileID: 497630287}
   - button: {fileID: 1151063303}
     childObject: {fileID: 1929212993}
+  skins: {fileID: 11400000, guid: 552907c97274091448ae4f431701a01f, type: 2}
 --- !u!114 &392735209
 MonoBehaviour:
   m_ObjectHideFlags: 0

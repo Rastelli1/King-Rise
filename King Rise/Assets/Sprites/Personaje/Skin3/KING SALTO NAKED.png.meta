@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: e7bdacb8ad39da641acb0c417576bc56
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KING SALTO NAKED_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 6
+        width: 104
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25af7f36dce36e543a704a99eb535fab
+      internalID: -1447627770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 6
+        width: 104
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fa12f1f8f6a0b4f9f69511bb06fe3b
+      internalID: 2087106936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_2
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 6
+        width: 104
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e1dde5568649b4c9c9d9a16e990cd9
+      internalID: -1121613262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_3
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 6
+        width: 104
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c07f2561b06084fa4be02db0294a60
+      internalID: 1272287974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_4
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 6
+        width: 104
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee95cdcda6405e4ab12224fea4d9dbd
+      internalID: -815394535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_5
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 6
+        width: 104
+        height: 137
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e690b3e4935ca242b8f7fead71dfd77
+      internalID: 56752854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_6
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 6
+        width: 104
+        height: 137
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c584a6fe216d340b1e26a4add91b3b
+      internalID: 1798024902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_7
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 6
+        width: 104
+        height: 137
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23ca104ed32c184fa0165d8f67410e2
+      internalID: 1677598184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_8
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 6
+        width: 104
+        height: 136
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c6fe2b155e3ec4482973f6e9562e0b
+      internalID: -1941424702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_9
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 6
+        width: 104
+        height: 137
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56602fe5cb62d7b4fabd9d35080a6c87
+      internalID: 2098633950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_10
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 6
+        width: 104
+        height: 137
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1cb4ff37626e340992491719f308e7
+      internalID: -934355162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_11
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 6
+        width: 104
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a16aff490dbd8d4eac44fa827b35d60
+      internalID: -664212854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_12
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 7
+        width: 104
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06256ac7bd489c848831b9c8089274b2
+      internalID: -1593611125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_13
+      rect:
+        serializedVersion: 2
+        x: 2651
+        y: 9
+        width: 104
+        height: 137
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce1fa5ece06e784c9d9a1e3925a08b6
+      internalID: 120549255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_14
+      rect:
+        serializedVersion: 2
+        x: 2851
+        y: 12
+        width: 104
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c3d98c4861a224c815057a88c2d5e3
+      internalID: -1418449754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_15
+      rect:
+        serializedVersion: 2
+        x: 3051
+        y: 13
+        width: 104
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011172381c64d434c9a2844028f08b48
+      internalID: 47580623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_16
+      rect:
+        serializedVersion: 2
+        x: 3251
+        y: 13
+        width: 104
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9517c14c0517e41878986c32479bbc
+      internalID: 960421153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_17
+      rect:
+        serializedVersion: 2
+        x: 3452
+        y: 12
+        width: 103
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3829e4aa13e40854e8408629d63d9b38
+      internalID: 1730859837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_18
+      rect:
+        serializedVersion: 2
+        x: 3652
+        y: 12
+        width: 103
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0acfbad0ee0d3034b8e997c0958bb38d
+      internalID: 568064256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_19
+      rect:
+        serializedVersion: 2
+        x: 3852
+        y: 11
+        width: 103
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b860c7be7b48d4a8a1f735229e046c
+      internalID: 1086986770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_20
+      rect:
+        serializedVersion: 2
+        x: 4053
+        y: 10
+        width: 102
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21473e7f06628764bb2cd3b7242bbda4
+      internalID: 1977078183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_21
+      rect:
+        serializedVersion: 2
+        x: 4253
+        y: 10
+        width: 102
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3333e260cd399c643a94366b85add4ea
+      internalID: 1780972324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_22
+      rect:
+        serializedVersion: 2
+        x: 4453
+        y: 9
+        width: 102
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7231c70fdd222b44a873c2fe39a8cb1
+      internalID: -1936950454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_23
+      rect:
+        serializedVersion: 2
+        x: 4653
+        y: 9
+        width: 102
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6141ce61848e3fa4d8ffba773b8f8c17
+      internalID: 2064352132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_24
+      rect:
+        serializedVersion: 2
+        x: 4853
+        y: 9
+        width: 102
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b72c5c11e7dde459eaa6161c91094f
+      internalID: 1768577625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_25
+      rect:
+        serializedVersion: 2
+        x: 5053
+        y: 8
+        width: 102
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ac83c2d8b50aa42ae130648fdb9059
+      internalID: -866907393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_26
+      rect:
+        serializedVersion: 2
+        x: 5253
+        y: 8
+        width: 102
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16a244e4ff10d349a533791d2005823
+      internalID: -412019798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_27
+      rect:
+        serializedVersion: 2
+        x: 5453
+        y: 7
+        width: 102
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103bf094e0bf8054ebba49e6edb7a817
+      internalID: 304310683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_28
+      rect:
+        serializedVersion: 2
+        x: 5653
+        y: 6
+        width: 102
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e3975248618d6478d7d0a8145d9327
+      internalID: -1655649204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_29
+      rect:
+        serializedVersion: 2
+        x: 5853
+        y: 5
+        width: 102
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc1bf5c5bb04914b94a1affc3385240
+      internalID: -24619238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_30
+      rect:
+        serializedVersion: 2
+        x: 6053
+        y: 5
+        width: 102
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ea5264b616f1b4ea3b74a352c7421c
+      internalID: -221105032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_31
+      rect:
+        serializedVersion: 2
+        x: 6253
+        y: 4
+        width: 102
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5222d9a57f75b4a90a85dcc95aa8b3
+      internalID: -1251080205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_32
+      rect:
+        serializedVersion: 2
+        x: 6453
+        y: 4
+        width: 102
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0cb562f69da324fb6e9e1a0a631eb7
+      internalID: 517353874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_33
+      rect:
+        serializedVersion: 2
+        x: 6652
+        y: 5
+        width: 103
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38a2ad35203e90489af469cfb0d1f10
+      internalID: 1233839345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO NAKED_34
+      rect:
+        serializedVersion: 2
+        x: 6851
+        y: 6
+        width: 104
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef29ee74a569da47b389851c47d0d39
+      internalID: 1454527438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      KING SALTO NAKED_0: -1447627770
+      KING SALTO NAKED_1: 2087106936
+      KING SALTO NAKED_10: -934355162
+      KING SALTO NAKED_11: -664212854
+      KING SALTO NAKED_12: -1593611125
+      KING SALTO NAKED_13: 120549255
+      KING SALTO NAKED_14: -1418449754
+      KING SALTO NAKED_15: 47580623
+      KING SALTO NAKED_16: 960421153
+      KING SALTO NAKED_17: 1730859837
+      KING SALTO NAKED_18: 568064256
+      KING SALTO NAKED_19: 1086986770
+      KING SALTO NAKED_2: -1121613262
+      KING SALTO NAKED_20: 1977078183
+      KING SALTO NAKED_21: 1780972324
+      KING SALTO NAKED_22: -1936950454
+      KING SALTO NAKED_23: 2064352132
+      KING SALTO NAKED_24: 1768577625
+      KING SALTO NAKED_25: -866907393
+      KING SALTO NAKED_26: -412019798
+      KING SALTO NAKED_27: 304310683
+      KING SALTO NAKED_28: -1655649204
+      KING SALTO NAKED_29: -24619238
+      KING SALTO NAKED_3: 1272287974
+      KING SALTO NAKED_30: -221105032
+      KING SALTO NAKED_31: -1251080205
+      KING SALTO NAKED_32: 517353874
+      KING SALTO NAKED_33: 1233839345
+      KING SALTO NAKED_34: 1454527438
+      KING SALTO NAKED_4: -815394535
+      KING SALTO NAKED_5: 56752854
+      KING SALTO NAKED_6: 1798024902
+      KING SALTO NAKED_7: 1677598184
+      KING SALTO NAKED_8: -1941424702
+      KING SALTO NAKED_9: 2098633950
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
