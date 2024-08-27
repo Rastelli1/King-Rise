@@ -11,18 +11,18 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject gameOverPanel;
     [SerializeField] GameObject textPanel;
     [SerializeField] GameObject panelFinalPisos;
-    [SerializeField] Transform player;
+    private Transform player;  // Ya no es serializado, se asigna dinámicamente
+    GameObject target;
 
     [SerializeField] float metaAlcanzar;
 
-   //[SerializeField] TMP_Text textScore;
     [SerializeField] TMP_Text dayFinal;
 
     [Header("Sonido")]
     [SerializeField] private AudioSource backgroundMusicSource;
     [SerializeField] private AudioSource deathMusicSource;
-    [SerializeField] private AudioClip levelMusic; // Música del nivel
-    [SerializeField] private AudioClip deathMusic; // Música de muerte
+    [SerializeField] private AudioClip levelMusic;
+    [SerializeField] private AudioClip deathMusic;
 
     [Header("Sistema de pisos")]
     [SerializeField] TMP_Text pisos;
@@ -42,19 +42,29 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        target = GameObject.FindGameObjectWithTag("Player");
+        if (target != null)
+        {
+            player = target.transform;  // Asigna el Transform del objeto encontrado
+        }
+        else
+        {
+            Debug.LogWarning("No se encontró ningún objeto con la etiqueta 'Player'.");
+        }
         panelFinalPisos.SetActive(false);
-        posicionPlayer =player.position.y;
+        posicionPlayer = player.position.y;
         pisoActual = 0;
         pisoAllegar = posicionPlayer + intervaloPisos;
-        //textScore.text = "DAY: " + days;
         pisos.text = "" + pisoActual;
         StopDeathMusic();
         PlayLevelMusic();
-        StartCoroutine(DayTimer()); // Start the coroutine to advance days every 20 seconds
+        StartCoroutine(DayTimer()); // Inicia la corrutina para avanzar días
     }
 
     private void Awake()
     {
+        
+
         if (instance != null && instance != this)
         {
             Destroy(this);
@@ -74,6 +84,7 @@ public class GameManager : MonoBehaviour
         }
         Aumentarpiso();
     }
+
     public void PlayLevelMusic()
     {
         if (backgroundMusicSource != null && levelMusic != null)
@@ -101,6 +112,7 @@ public class GameManager : MonoBehaviour
             backgroundMusicSource.Stop();
         }
     }
+
     public void StopDeathMusic()
     {
         if (deathMusicSource != null)
@@ -108,6 +120,7 @@ public class GameManager : MonoBehaviour
             deathMusicSource.Stop();
         }
     }
+
     public void PausedState()
     {
         isPaused = !isPaused;
@@ -138,18 +151,13 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        
         state = true;
         StopLevelMusic();
-        PausedState(); 
+        PausedState();
         ControllerScenes.instance.NewPlay(() =>
         {
-
-            // Código que se ejecuta después de que NewPlay y TransitionGameOver terminan
-
             textPanel.SetActive(false);
             gameOverPanel.SetActive(true);
-            
             panelFinalPisos.SetActive(true);
             PlayDeathMusic();
             dayFinal.text = "" + days;
@@ -161,23 +169,23 @@ public class GameManager : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(metaAlcanzar); // Wait for 20 seconds
-            NextDay(); // Advance to the next day
+            yield return new WaitForSeconds(metaAlcanzar); // Espera la cantidad de tiempo definida
+            NextDay(); // Avanza al siguiente día
         }
     }
 
     public void NextDay()
     {
-        days = days + 1;
-        //textScore.text = "DAY: " + days;
+        days += 1;
     }
 
-    private void Aumentarpiso() {
-        if(player.position.y>= pisoAllegar)
+    private void Aumentarpiso()
+    {
+        if (player.position.y >= pisoAllegar)
         {
             posicionPlayer = player.position.y;
-            pisoAllegar = posicionPlayer+ intervaloPisos;
-            pisoActual = pisoActual+ 5;
+            pisoAllegar = posicionPlayer + intervaloPisos;
+            pisoActual += 5;
             pisos.text = "" + pisoActual;
         }
     }

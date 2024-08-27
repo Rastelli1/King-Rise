@@ -12,7 +12,7 @@ public class SpawnPersonaje : MonoBehaviour
     {
         if (!PlayerPrefs.HasKey("contadorSkins"))
         {
-            contadorSkins = 1;
+            contadorSkins = 0;
         }
         else
         {
@@ -24,7 +24,7 @@ public class SpawnPersonaje : MonoBehaviour
     private void InvocarPersonajes(int contadorSkins)
     {
         Ficha skin=listSkins.ObtenerSkins(contadorSkins);
-        Instantiate(skin.object_Skins);
+        Instantiate(skin.object_Skins, this.transform.position, this.transform.rotation);
     }
     
     private void Cargar()
