@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ControlSelection : MonoBehaviour
@@ -19,6 +20,7 @@ public class ControlSelection : MonoBehaviour
 
     void Start()
     {
+        // Cargar la skin previamente seleccionada o usar la básica
         if (!PlayerPrefs.HasKey("contadorSkins"))
         {
             contadorSkins = 0; // Si no hay una skin seleccionada, usa la básica (primera de la lista)
@@ -38,6 +40,9 @@ public class ControlSelection : MonoBehaviour
 
             // Configurar los eventos del botón
             int index = i; // Necesario para capturar el índice correctamente
+
+            // Asignar el evento de selección al botón
+            buttons[i].button.onClick.AddListener(() => SeleccionarSkin(index));
 
             // Añadir los eventos de hover para el botón
             EventTrigger trigger = buttons[i].button.gameObject.AddComponent<EventTrigger>();
@@ -62,6 +67,7 @@ public class ControlSelection : MonoBehaviour
 
     public void OnPointerEnter(int index)
     {
+        buttons[contadorSkins].childObject.SetActive(false);
         // Mostrar la imagen hija y cambiar el color del botón
         if (buttons[index].childObject != null)
         {
@@ -69,6 +75,7 @@ public class ControlSelection : MonoBehaviour
         }
 
         var colors = buttons[index].button.colors;
+        colors.normalColor = Color.red; // Ejemplo de cambio de color
         buttons[index].button.colors = colors;
     }
 
@@ -81,12 +88,35 @@ public class ControlSelection : MonoBehaviour
         }
 
         var colors = buttons[index].button.colors;
+        colors.normalColor = Color.white; // Restaurar el color original
         buttons[index].button.colors = colors;
+    }
+
+    private void SeleccionarSkin(int index)
+    {
+        // Desactivar la imagen de la skin actualmente seleccionada
+        if (buttons[contadorSkins].childObject != null)
+        {
+            buttons[contadorSkins].childObject.SetActive(false);
+        }
+
+        // Actualizar el contador de skins
+        contadorSkins = index;
+
+        // Activar la imagen de la nueva skin seleccionada
+        if (buttons[contadorSkins].childObject != null)
+        {
+            buttons[contadorSkins].childObject.SetActive(true);
+        }
+
+        // Guardar la selección en PlayerPrefs
+        Guardar();
     }
 
     private void Guardar()
     {
         PlayerPrefs.SetInt("contadorSkins", contadorSkins);
+        ControllerScenes.instance.Pruebas();
     }
 
     private void Cargar()

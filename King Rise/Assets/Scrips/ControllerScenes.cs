@@ -36,6 +36,11 @@ public class ControllerScenes : MonoBehaviour
         animator.SetBool("GameOver", false);
         StartCoroutine(TransitionEmpezar());
     }
+    public void Pruebas()
+    {
+        animator.SetBool("GameOver", false);
+        StartCoroutine(TransitionPruebas());
+    }
     public void Play()
     {
         animator.SetBool("GameOver", false);
@@ -57,6 +62,16 @@ public class ControllerScenes : MonoBehaviour
         Destroy(gameObject);
     }
     IEnumerator TransitionEmpezar()
+    {
+        animator.SetBool("Play", true);
+        yield return new WaitForSecondsRealtime(animacionFinal.length);
+        if (Time.timeScale == 0f)
+        {
+            GameManager.instance.PausedState();
+        }
+        SceneManager.LoadScene("Skins");
+    }
+    IEnumerator TransitionPruebas()
     {
         animator.SetBool("Play", true);
         yield return new WaitForSecondsRealtime(animacionFinal.length);
