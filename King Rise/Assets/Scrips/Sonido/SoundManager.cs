@@ -35,10 +35,9 @@ public class SoundManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // Verifica el nombre de la escena
-        if (scene.name == "Pruebas")  // Cambia "Nivel" por el nombre de la escena de nivel
+        
+        if (scene.name == "Pruebas")  
         {
-            // Detén la música
             Destroy(gameObject);
         }
     }

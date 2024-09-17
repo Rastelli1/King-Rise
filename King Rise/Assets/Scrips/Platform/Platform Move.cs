@@ -52,6 +52,10 @@ public class PlatformMove : MonoBehaviour
 
     void Update()
     {
+        IsFalling();
+    }
+    private void IsFalling()
+    {
         if (!isFalling)
         {
             objetMove.transform.position = Vector3.MoveTowards(objetMove.transform.position, moveDirection, velocity * Time.deltaTime);
@@ -68,7 +72,6 @@ public class PlatformMove : MonoBehaviour
             }
         }
     }
-
     private void Flip()
     {
         if (araña != null)
@@ -110,10 +113,10 @@ public class PlatformMove : MonoBehaviour
                 araña.transform.rotation = Quaternion.Euler(rotation);
             }
 
-            isFlipped = true; // Marca que la plataforma ya se dio vuelta
+            isFlipped = true;
         }
 
-        isFalling = true; // Marca que la plataforma debe caer
+        isFalling = true; 
         canInteract = false; // Desactiva la interacción para evitar múltiples toques
 
         if (rb2D != null)

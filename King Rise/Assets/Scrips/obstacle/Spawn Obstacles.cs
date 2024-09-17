@@ -11,7 +11,6 @@ public class SpawnObstacles : MonoBehaviour
 
     [SerializeField] Transform pointEjeY;
 
-    // Start is called before the first frame update
     void Start()
     {
         SetDragValue(drag); // esto hara que caigan los obstaculos a la misma velocidad

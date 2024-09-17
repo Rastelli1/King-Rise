@@ -25,8 +25,6 @@ public class EfectParralax : MonoBehaviour
         transform.Translate(new Vector3(0, deltaY, 0)); // Mover la capa según el movimiento de la cámara
         previousCameraPosition = mainCameraTransform.position; // Actualizar la posición anterior de la cámara
 
-        // Debug para verificar valores
-
         // Reposicionamiento de capas hacia adelante
         if (moveAmount > startPosition + spriteHeight) // Si la cámara está más adelante que la capa, habrá reposicionamiento de capas
         {

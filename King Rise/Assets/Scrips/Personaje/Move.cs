@@ -13,23 +13,20 @@ public class Move : MonoBehaviour
     private Vector3 velocity = Vector3.zero;
     private bool lookingRight = true;
 
-    // Salto
+    [Header("Salto")]
     [SerializeField] private float jumpForce;
     [SerializeField] private LayerMask whatIsFloor;
     [SerializeField] private Vector3 boxDimensions;
     [SerializeField] private Transform controllerFloor;
-
-    [SerializeField] private AnimationClip animacionDead;
-
     private bool inFloor;
     private bool isOnMovingPlatform;
     public bool isJumping = false;
-
     private bool jump = false;
-    private bool dead = false;
 
     [Header("Animaciones")]
     private Animator animator;
+    private bool dead = false;
+    [SerializeField] private AnimationClip animacionDead;
 
     [Header("Partículas")]
     [SerializeField] private ParticleSystem particulas;
@@ -47,10 +44,13 @@ public class Move : MonoBehaviour
 
     private void Update()
     {
-        
+        ConfirmationMove();
+    }
+    private void ConfirmationMove()
+    {
         movimientohorizontal = Input.GetAxisRaw("Horizontal") * velocityMove;
         animator.SetFloat("Horizontal", Mathf.Abs(movimientohorizontal));
-        
+
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
@@ -63,7 +63,6 @@ public class Move : MonoBehaviour
             isJumping = false;
         }
     }
-
     private void FixedUpdate()
     {
         inFloor = Physics2D.OverlapBox(controllerFloor.position, boxDimensions, 0f, whatIsFloor);
@@ -91,8 +90,8 @@ public class Move : MonoBehaviour
         if (inFloor && jumping)
         {
             inFloor = false;
-            rb2D.velocity = new Vector2(rb2D.velocity.x, 0f); // Reset vertical velocity
-            rb2D.velocity = new Vector2(rb2D.velocity.x, jumpForce); // Set consistent jump velocity
+            rb2D.velocity = new Vector2(rb2D.velocity.x, 0f); 
+            rb2D.velocity = new Vector2(rb2D.velocity.x, jumpForce);
         }
 
         jump = false;
@@ -118,8 +117,8 @@ public class Move : MonoBehaviour
         {
             isJumping = true;
             isOnMovingPlatform = true;
-            rb2D.velocity = new Vector2(rb2D.velocity.x, 0f); // Reset vertical velocity when landing on moving platform
-            rb2D.velocity = new Vector2(rb2D.velocity.x, jumpForce + 2); // Set increased jump velocity
+            rb2D.velocity = new Vector2(rb2D.velocity.x, 0f); 
+            rb2D.velocity = new Vector2(rb2D.velocity.x, jumpForce + 2); 
         }
     }
 

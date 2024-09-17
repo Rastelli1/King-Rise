@@ -10,11 +10,11 @@ public class ControlSelection : MonoBehaviour
     [System.Serializable]
     public class ButtonInfo
     {
-        public Button button;              // El botón
-        public GameObject childObject;     // La imagen hija
+        public Button button;              
+        public GameObject childObject;     
     }
 
-    public ButtonInfo[] buttons;           // Array de botones
+    public ButtonInfo[] buttons;           
     public Listas skins;
     private int contadorSkins = 0;
 
@@ -23,7 +23,7 @@ public class ControlSelection : MonoBehaviour
         // Cargar la skin previamente seleccionada o usar la básica
         if (!PlayerPrefs.HasKey("contadorSkins"))
         {
-            contadorSkins = 0; // Si no hay una skin seleccionada, usa la básica (primera de la lista)
+            contadorSkins = 0;
         }
         else
         {
@@ -39,7 +39,7 @@ public class ControlSelection : MonoBehaviour
             }
 
             // Configurar los eventos del botón
-            int index = i; // Necesario para capturar el índice correctamente
+            int index = i;
 
             // Asignar el evento de selección al botón
             buttons[i].button.onClick.AddListener(() => SeleccionarSkin(index));
@@ -75,20 +75,20 @@ public class ControlSelection : MonoBehaviour
         }
 
         var colors = buttons[index].button.colors;
-        colors.normalColor = Color.red; // Ejemplo de cambio de color
+        colors.normalColor = Color.red; 
         buttons[index].button.colors = colors;
     }
 
     public void OnPointerExit(int index)
     {
-        // Ocultar la imagen hija y restaurar el color original del botón
+        // Ocultar la imagen hija 
         if (buttons[index].childObject != null)
         {
             buttons[index].childObject.SetActive(false);
         }
 
         var colors = buttons[index].button.colors;
-        colors.normalColor = Color.white; // Restaurar el color original
+        colors.normalColor = Color.white; 
         buttons[index].button.colors = colors;
     }
 

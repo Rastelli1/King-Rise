@@ -19,22 +19,15 @@ public class PlatformFragil : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (startDestruction)
-        {
-            AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-            if (stateInfo.IsName("Delete") && stateInfo.normalizedTime >= 1.0f)
-            {
-                Destroy(gameObject);
-            }
-        }
+        StartDestruction();
     }
 
     private IEnumerator AfterCollision(float time)
     {
         yield return new WaitForSeconds(time);
 
-        animator.SetBool("Delete", true); // Inicia la animación "Delete"
-        startDestruction = true; // Marca que la destrucción ha comenzado
+        animator.SetBool("Delete", true); 
+        startDestruction = true; 
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -42,6 +35,17 @@ public class PlatformFragil : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             StartCoroutine(AfterCollision(timeDelete));
+        }
+    }
+    private void  StartDestruction() {
+
+        if (startDestruction)
+        {
+            AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+            if (stateInfo.IsName("Delete") && stateInfo.normalizedTime >= 1.0f)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 
