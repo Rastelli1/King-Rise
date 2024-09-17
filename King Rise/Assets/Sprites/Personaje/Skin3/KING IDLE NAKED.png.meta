@@ -1,0 +1,1174 @@
+fileFormatVersion: 2
+guid: 9713fb9c9a4ab1d42b3143dce077e2f9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KING IDLE NAKED_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 6
+        width: 105
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ae8bf1783e9fc49ac96e8fb8a4785d
+      internalID: 1555947989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 6
+        width: 105
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c94d9b6cb6ce4459625d9d52d6e98b
+      internalID: -646856111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_2
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 6
+        width: 105
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a105e64df9e1f4e8ad92e838f03528
+      internalID: -1018654693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_3
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 6
+        width: 104
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab29ce9505bc644b90d05adc3de030d
+      internalID: -1599097871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_4
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 6
+        width: 105
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb754efeda6db040b8f6620738dad30
+      internalID: 243253343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_5
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 6
+        width: 105
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65085095e2a6f5b49b6b3dd8170fe712
+      internalID: -320025724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_6
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 6
+        width: 104
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e841fb725179c34ca9c273ac00f1dd0
+      internalID: 1859915352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_7
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 6
+        width: 105
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20daff490a80efa4c868b7e80b732245
+      internalID: -2103753642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_8
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 6
+        width: 106
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95108e63499b1c44aa5b5c4844c70c38
+      internalID: 238887887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_9
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 6
+        width: 105
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86eb379a9b0452e47b00ae22592d33c6
+      internalID: -1124414185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_10
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 6
+        width: 104
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68a2dc626ec5904d862f9cdbdce8508
+      internalID: 2028971406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_11
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 6
+        width: 105
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e59f08448a6f54790c508fe414e639
+      internalID: -1703258327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_12
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 6
+        width: 105
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98adf6d2fa656cb41913951854b7b94b
+      internalID: 2121816418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_13
+      rect:
+        serializedVersion: 2
+        x: 2651
+        y: 6
+        width: 104
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cda7d36220af847b9c230256cb4443
+      internalID: 197132436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_14
+      rect:
+        serializedVersion: 2
+        x: 2850
+        y: 6
+        width: 105
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d641462998026542bfa741df7b23dbe
+      internalID: 570092857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_15
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 6
+        width: 106
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74b8a39f2e2bb148b665e812decc362
+      internalID: 278746911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_16
+      rect:
+        serializedVersion: 2
+        x: 3251
+        y: 6
+        width: 104
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1619c1c40308144b51e3a84cc6cf04
+      internalID: -1650442880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_17
+      rect:
+        serializedVersion: 2
+        x: 3450
+        y: 6
+        width: 105
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e62b89bea097744b191ccd27051fd0
+      internalID: 839495412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_18
+      rect:
+        serializedVersion: 2
+        x: 3650
+        y: 6
+        width: 104
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5995ac6e3c83e849bf73aa2b641614c
+      internalID: -323129701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_19
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 6
+        width: 105
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d8b14f6d765694e95c931453f038ce
+      internalID: -1535527524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_20
+      rect:
+        serializedVersion: 2
+        x: 4051
+        y: 6
+        width: 104
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d70ceacc0b4ab488eea6ee7a008674
+      internalID: 330242809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_21
+      rect:
+        serializedVersion: 2
+        x: 4250
+        y: 6
+        width: 105
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc57e2c93eea0b40893d69c19cbdece
+      internalID: 486787945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_22
+      rect:
+        serializedVersion: 2
+        x: 4450
+        y: 6
+        width: 105
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031fa31908e04a04297e4006d1f882de
+      internalID: -1138180569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_23
+      rect:
+        serializedVersion: 2
+        x: 4651
+        y: 6
+        width: 104
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0995b519a0dbf3c488d04cf498e9bf2a
+      internalID: -2079047717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_24
+      rect:
+        serializedVersion: 2
+        x: 4850
+        y: 6
+        width: 105
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180fa3a91c1e5ae4b8a9b23489859223
+      internalID: 1332540659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_25
+      rect:
+        serializedVersion: 2
+        x: 5050
+        y: 6
+        width: 106
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0312e6406aef50d4c98635df34f9a94c
+      internalID: -1989906151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_26
+      rect:
+        serializedVersion: 2
+        x: 5250
+        y: 6
+        width: 105
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2a702fca0c0de4eb04f19b401e375b
+      internalID: -281754533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_27
+      rect:
+        serializedVersion: 2
+        x: 5450
+        y: 6
+        width: 105
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b6a2dd25a5868469ad4db0afec77c4
+      internalID: 1034110556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_28
+      rect:
+        serializedVersion: 2
+        x: 5650
+        y: 6
+        width: 105
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ddfb73708ef6645b69a2fe1575fce3
+      internalID: 1330530038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_29
+      rect:
+        serializedVersion: 2
+        x: 5850
+        y: 6
+        width: 105
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ada9f287eaac02489aae1bce8a2125c
+      internalID: 112236118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_30
+      rect:
+        serializedVersion: 2
+        x: 6051
+        y: 6
+        width: 104
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5eba10d360ecf4889a9f58df6e3b77
+      internalID: -659080687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_31
+      rect:
+        serializedVersion: 2
+        x: 6250
+        y: 6
+        width: 105
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6415caef6dea5aa4ca569b5cb8e7fb32
+      internalID: 1123518543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_32
+      rect:
+        serializedVersion: 2
+        x: 6450
+        y: 6
+        width: 105
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ae2707bd412ac48ba230327bb1c1d7
+      internalID: 1163326754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_33
+      rect:
+        serializedVersion: 2
+        x: 6651
+        y: 6
+        width: 104
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87de9e5ca7c883549b6070fd9a2468c3
+      internalID: 1223496014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_34
+      rect:
+        serializedVersion: 2
+        x: 6850
+        y: 6
+        width: 105
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc609bf7909b3f49a13758d4a70ad05
+      internalID: -288141492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_35
+      rect:
+        serializedVersion: 2
+        x: 7050
+        y: 6
+        width: 106
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f78426d6044ef240b883213bfde7ff7
+      internalID: 1287449479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_36
+      rect:
+        serializedVersion: 2
+        x: 7250
+        y: 6
+        width: 105
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2869aaaa0305d147b1507626511c684
+      internalID: -1462416852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_37
+      rect:
+        serializedVersion: 2
+        x: 7450
+        y: 6
+        width: 105
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6332b9a1e31e861469ce1d5174d667f8
+      internalID: 371300953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_38
+      rect:
+        serializedVersion: 2
+        x: 7650
+        y: 6
+        width: 105
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c4cd2b70514db4abdbdf4c030add49
+      internalID: 423323848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_39
+      rect:
+        serializedVersion: 2
+        x: 7850
+        y: 6
+        width: 105
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e316e0992b06229479dad3154a6ca22a
+      internalID: 1274774227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_40
+      rect:
+        serializedVersion: 2
+        x: 8051
+        y: 6
+        width: 104
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415fb3caf2e316a449aaccd3bdc9cead
+      internalID: -999130716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_41
+      rect:
+        serializedVersion: 2
+        x: 8250
+        y: 6
+        width: 105
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c62834722bea064094db7a8669f02e7
+      internalID: -1246992105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_42
+      rect:
+        serializedVersion: 2
+        x: 8450
+        y: 6
+        width: 105
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43b002d3f0fcff4eb1462f3f88c81c6
+      internalID: 1270057852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_43
+      rect:
+        serializedVersion: 2
+        x: 8651
+        y: 6
+        width: 104
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6e60c78b0ff8d4d86782a60835547e
+      internalID: 379780947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_44
+      rect:
+        serializedVersion: 2
+        x: 8850
+        y: 6
+        width: 105
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293a352c6fbd3d842929e7944f2e6ac7
+      internalID: -1634944366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_45
+      rect:
+        serializedVersion: 2
+        x: 9050
+        y: 6
+        width: 106
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f44e5381fd8bd4992bf91a65387c52
+      internalID: -769004724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE NAKED_46
+      rect:
+        serializedVersion: 2
+        x: 9250
+        y: 6
+        width: 105
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5710dc2de96b11b4387488e1f1b6823d
+      internalID: -2132122177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      KING IDLE NAKED_0: 1555947989
+      KING IDLE NAKED_1: -646856111
+      KING IDLE NAKED_10: 2028971406
+      KING IDLE NAKED_11: -1703258327
+      KING IDLE NAKED_12: 2121816418
+      KING IDLE NAKED_13: 197132436
+      KING IDLE NAKED_14: 570092857
+      KING IDLE NAKED_15: 278746911
+      KING IDLE NAKED_16: -1650442880
+      KING IDLE NAKED_17: 839495412
+      KING IDLE NAKED_18: -323129701
+      KING IDLE NAKED_19: -1535527524
+      KING IDLE NAKED_2: -1018654693
+      KING IDLE NAKED_20: 330242809
+      KING IDLE NAKED_21: 486787945
+      KING IDLE NAKED_22: -1138180569
+      KING IDLE NAKED_23: -2079047717
+      KING IDLE NAKED_24: 1332540659
+      KING IDLE NAKED_25: -1989906151
+      KING IDLE NAKED_26: -281754533
+      KING IDLE NAKED_27: 1034110556
+      KING IDLE NAKED_28: 1330530038
+      KING IDLE NAKED_29: 112236118
+      KING IDLE NAKED_3: -1599097871
+      KING IDLE NAKED_30: -659080687
+      KING IDLE NAKED_31: 1123518543
+      KING IDLE NAKED_32: 1163326754
+      KING IDLE NAKED_33: 1223496014
+      KING IDLE NAKED_34: -288141492
+      KING IDLE NAKED_35: 1287449479
+      KING IDLE NAKED_36: -1462416852
+      KING IDLE NAKED_37: 371300953
+      KING IDLE NAKED_38: 423323848
+      KING IDLE NAKED_39: 1274774227
+      KING IDLE NAKED_4: 243253343
+      KING IDLE NAKED_40: -999130716
+      KING IDLE NAKED_41: -1246992105
+      KING IDLE NAKED_42: 1270057852
+      KING IDLE NAKED_43: 379780947
+      KING IDLE NAKED_44: -1634944366
+      KING IDLE NAKED_45: -769004724
+      KING IDLE NAKED_46: -2132122177
+      KING IDLE NAKED_5: -320025724
+      KING IDLE NAKED_6: 1859915352
+      KING IDLE NAKED_7: -2103753642
+      KING IDLE NAKED_8: 238887887
+      KING IDLE NAKED_9: -1124414185
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

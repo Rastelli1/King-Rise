@@ -1,91 +1,105 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Move : MonoBehaviour
 {
     private Rigidbody2D rb2D;
-
     private float movimientohorizontal = 0f;
 
     [SerializeField] private float velocityMove;
     [SerializeField] private float moveSuavizado;
-
-    private Vector3 velocity= Vector3.zero;
-
+    private Vector3 velocity = Vector3.zero;
     private bool lookingRight = true;
 
-    // salto
-
-    [SerializeField] private float jumpForce ;
-
+    [Header("Salto")]
+    [SerializeField] private float jumpForce;
     [SerializeField] private LayerMask whatIsFloor;
-
     [SerializeField] private Vector3 boxDimensions;
-
     [SerializeField] private Transform controllerFloor;
+    private bool inFloor;
+    private bool isOnMovingPlatform;
+    public bool isJumping = false;
+    private bool jump = false;
 
-    [SerializeField] private bool inFloor;
-
-    private bool jump=false;
-
-    [Header("Aimaciones")]
-
+    [Header("Animaciones")]
     private Animator animator;
+    private bool dead = false;
+    [SerializeField] private AnimationClip animacionDead;
 
-    // Start is called before the first frame update
-    void Start()
+    [Header("Partículas")]
+    [SerializeField] private ParticleSystem particulas;
+
+    [Header("Sonido")]
+    private AudioSource death;
+
+    private void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        death=GetComponent<AudioSource>();
+        death.Stop();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
+    {
+        ConfirmationMove();
+    }
+    private void ConfirmationMove()
     {
         movimientohorizontal = Input.GetAxisRaw("Horizontal") * velocityMove;
-        animator.SetFloat("Horizontal", Mathf.Abs( movimientohorizontal ) );
+        animator.SetFloat("Horizontal", Mathf.Abs(movimientohorizontal));
+
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
+            particulas.Play();
+        }
+
+        if (rb2D.velocity.y < 0 && isJumping)
+        {
+            // Permite el contacto con una nueva plataforma móvil sólo si está descendiendo
+            isJumping = false;
         }
     }
-
     private void FixedUpdate()
     {
-        animator.SetBool("InFloor", inFloor);
         inFloor = Physics2D.OverlapBox(controllerFloor.position, boxDimensions, 0f, whatIsFloor);
+        animator.SetBool("InFloor", inFloor);
 
-        
-
-        Mover(movimientohorizontal*Time.fixedDeltaTime, jump);
+        Mover(movimientohorizontal * Time.fixedDeltaTime, jump);
     }
 
     private void Mover(float mover, bool jumping)
     {
-        Vector3 velocityObjetivo = new Vector2(mover, rb2D.velocity.y);
-        rb2D.velocity= Vector3.SmoothDamp(rb2D.velocity, velocityObjetivo, ref velocity, moveSuavizado);
+        if (dead) return;
 
-        if(mover> 0 && !lookingRight)
-        {
-            //girar
-            Girar();
-        }
-        else if(mover< 0 && lookingRight)
+        Vector3 velocityObjetivo = new Vector2(mover, rb2D.velocity.y);
+        rb2D.velocity = Vector3.SmoothDamp(rb2D.velocity, velocityObjetivo, ref velocity, moveSuavizado);
+
+        if (mover > 0 && !lookingRight)
         {
             Girar();
         }
-        if(inFloor && jumping)
+        else if (mover < 0 && lookingRight)
+        {
+            Girar();
+        }
+
+        if (inFloor && jumping)
         {
             inFloor = false;
-            rb2D.AddForce(new Vector2(0f, jumpForce));
+            rb2D.velocity = new Vector2(rb2D.velocity.x, 0f); 
+            rb2D.velocity = new Vector2(rb2D.velocity.x, jumpForce);
         }
+
         jump = false;
     }
 
     private void Girar()
     {
-        lookingRight=!lookingRight;
+        lookingRight = !lookingRight;
         Vector3 escala = transform.localScale;
         escala.x *= -1;
         transform.localScale = escala;
@@ -99,17 +113,41 @@ public class Move : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "PlatformMove")
+        if (collision.gameObject.CompareTag("PlatformMove") && !isJumping)
         {
-            transform.parent = collision.transform;
-        }
-    }
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "PlatformMove")
-        {
-            transform.parent = null;
+            isJumping = true;
+            isOnMovingPlatform = true;
+            rb2D.velocity = new Vector2(rb2D.velocity.x, 0f); 
+            rb2D.velocity = new Vector2(rb2D.velocity.x, jumpForce + 2); 
         }
     }
 
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("PlatformMove"))
+        {
+            // Asegúrate de que isOnMovingPlatform se restablezca a false cuando el personaje deja la plataforma
+            isOnMovingPlatform = false;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Object"))
+        {
+            
+            StartCoroutine(Dead());
+        }
+    }
+    IEnumerator Dead()
+    {
+        dead = true;
+        animator.SetBool("Dead", true);
+        death.Play();
+        rb2D.velocity = Vector2.zero; 
+        rb2D.gravityScale = 0;
+        movimientohorizontal = 0f;
+        yield return new WaitForSecondsRealtime(animacionDead.length);
+        GameManager.instance.GameOver();
+    }
 }

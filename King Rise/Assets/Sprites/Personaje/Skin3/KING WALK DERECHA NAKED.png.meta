@@ -1,0 +1,646 @@
+fileFormatVersion: 2
+guid: 12aa53d62903a6243bef8a14d13ea942
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KING WALK DERECHA NAKED_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 6
+        width: 104
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd0ee0c22b3ab847a7300c0aab5ae06
+      internalID: 2046585746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING WALK DERECHA NAKED_1
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 7
+        width: 106
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c983f965b1b4bf14dbc060b5fa2ef9c2
+      internalID: 2129152401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING WALK DERECHA NAKED_2
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 7
+        width: 108
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60dde99d08a442d4d885b2b0f5b62f9c
+      internalID: 1167266656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING WALK DERECHA NAKED_3
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 7
+        width: 110
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf94fcf79c3e3444aadc9ce1e0bc4ba
+      internalID: -1660594887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING WALK DERECHA NAKED_4
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 6
+        width: 112
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8072f37dc4cdf8e44949ac67d01eb107
+      internalID: 2033441869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING WALK DERECHA NAKED_5
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 5
+        width: 113
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6270179a9440bcc479010b11b1649159
+      internalID: 618425447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING WALK DERECHA NAKED_6
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 4
+        width: 115
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c51dcb1044e0484c83796fc38239e35
+      internalID: -1698618555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING WALK DERECHA NAKED_7
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 7
+        width: 112
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604ca14f995bd7246a69342a50477972
+      internalID: -367349524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING WALK DERECHA NAKED_8
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 5
+        width: 111
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463d6cf17a908ea4e97181100efab2c8
+      internalID: 541489941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING WALK DERECHA NAKED_9
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 1
+        width: 108
+        height: 145
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ccd1b5298a4fe947be7502036cd0ba1
+      internalID: -1286023069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING WALK DERECHA NAKED_10
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 3
+        width: 108
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f6fb7d2ef3d8c44a7186cb96d063f0
+      internalID: 1776881254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING WALK DERECHA NAKED_11
+      rect:
+        serializedVersion: 2
+        x: 2247
+        y: 5
+        width: 108
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58dee99f7960b6749b773af414d92d5f
+      internalID: 308916218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING WALK DERECHA NAKED_12
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 6
+        width: 106
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a29a927e7c59214183d4681428e80b4
+      internalID: -1483023182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING WALK DERECHA NAKED_13
+      rect:
+        serializedVersion: 2
+        x: 2649
+        y: 7
+        width: 105
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5210321f04271a54ca88a0e601aea503
+      internalID: -1647152867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING WALK DERECHA NAKED_14
+      rect:
+        serializedVersion: 2
+        x: 2849
+        y: 6
+        width: 105
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6db9762ccc29584a8a10e33be0d5426
+      internalID: 806820307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING WALK DERECHA NAKED_15
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 6
+        width: 105
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b65ee2411381d446836f685483402a8
+      internalID: 275482753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING WALK DERECHA NAKED_16
+      rect:
+        serializedVersion: 2
+        x: 3249
+        y: 6
+        width: 104
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c298ec2a77684499168eace7158ded
+      internalID: 1668258911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING WALK DERECHA NAKED_17
+      rect:
+        serializedVersion: 2
+        x: 3449
+        y: 6
+        width: 103
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0328237051772c3439165ece14787ee5
+      internalID: -1028910901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING WALK DERECHA NAKED_18
+      rect:
+        serializedVersion: 2
+        x: 3649
+        y: 6
+        width: 103
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d4d145c7cb53547a0524c4ccd53135
+      internalID: -727432036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING WALK DERECHA NAKED_19
+      rect:
+        serializedVersion: 2
+        x: 3849
+        y: 6
+        width: 104
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b650dd259d74bc40a578caca098b293
+      internalID: -1229720200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING WALK DERECHA NAKED_20
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 6
+        width: 103
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e86b1ea0e8ca74c80952970b58af4b
+      internalID: 55009676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING WALK DERECHA NAKED_21
+      rect:
+        serializedVersion: 2
+        x: 4251
+        y: 6
+        width: 103
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158e046050cc5e64aa4d796994e4af75
+      internalID: -1630113373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING WALK DERECHA NAKED_22
+      rect:
+        serializedVersion: 2
+        x: 4451
+        y: 6
+        width: 103
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2201a541f0d4d419fafdd68f1f3ec0
+      internalID: 412601337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      KING WALK DERECHA NAKED_0: 2046585746
+      KING WALK DERECHA NAKED_1: 2129152401
+      KING WALK DERECHA NAKED_10: 1776881254
+      KING WALK DERECHA NAKED_11: 308916218
+      KING WALK DERECHA NAKED_12: -1483023182
+      KING WALK DERECHA NAKED_13: -1647152867
+      KING WALK DERECHA NAKED_14: 806820307
+      KING WALK DERECHA NAKED_15: 275482753
+      KING WALK DERECHA NAKED_16: 1668258911
+      KING WALK DERECHA NAKED_17: -1028910901
+      KING WALK DERECHA NAKED_18: -727432036
+      KING WALK DERECHA NAKED_19: -1229720200
+      KING WALK DERECHA NAKED_2: 1167266656
+      KING WALK DERECHA NAKED_20: 55009676
+      KING WALK DERECHA NAKED_21: -1630113373
+      KING WALK DERECHA NAKED_22: 412601337
+      KING WALK DERECHA NAKED_3: -1660594887
+      KING WALK DERECHA NAKED_4: 2033441869
+      KING WALK DERECHA NAKED_5: 618425447
+      KING WALK DERECHA NAKED_6: -1698618555
+      KING WALK DERECHA NAKED_7: -367349524
+      KING WALK DERECHA NAKED_8: 541489941
+      KING WALK DERECHA NAKED_9: -1286023069
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - PlatformMove
+  - Object
+  - "Ara\xF1a"
   layers:
   - Default
   - TransparentFX

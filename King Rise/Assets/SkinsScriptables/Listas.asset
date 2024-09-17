@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3bcdaba62ec92544b64c127f25020e1, type: 3}
+  m_Name: Listas
+  m_EditorClassIdentifier: 
+  skins:
+  - object_Skins: {fileID: 969131256786684635, guid: 53f76c77c3a79614f8e488019d4fc40a, type: 3}
+  - object_Skins: {fileID: 4035034613336219688, guid: 219211fc25fc4af43b432c3bc8dc75cf, type: 3}
+  - object_Skins: {fileID: 2944602261973279575, guid: e0a8c7cdc13f46e49a7306f4726f6c57, type: 3}

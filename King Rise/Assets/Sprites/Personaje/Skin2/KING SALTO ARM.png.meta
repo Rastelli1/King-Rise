@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: c966a18c81fae9a45b64209ed6f055fd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KING SALTO ARM_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 6
+        width: 104
+        height: 172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88505a7f58da08488a411e44fd5019b
+      internalID: -940894249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 6
+        width: 104
+        height: 172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628854f3addff2b4cb256ae68ac6e7c1
+      internalID: -618918256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_2
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 6
+        width: 104
+        height: 172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86863495c176e844488b761972dd0b06
+      internalID: 1306195175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_3
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 6
+        width: 104
+        height: 172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4491c7a342f49e439efebd21410f414
+      internalID: -663509509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_4
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 6
+        width: 104
+        height: 171
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e460b533784fa042ababdcf8536dd88
+      internalID: -1420208508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_5
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 6
+        width: 104
+        height: 171
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523534bb2e46fd74eb2617cee704e2c2
+      internalID: -1998064069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_6
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 6
+        width: 104
+        height: 171
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b7e339861b24542a0f1b335a087f23
+      internalID: 2065020859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_7
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 6
+        width: 104
+        height: 170
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025986252f3f26c40b7172e7d5b40618
+      internalID: -545712497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_8
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 6
+        width: 104
+        height: 170
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267bf84057ee3d347bc3707c543fed8e
+      internalID: -735918175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_9
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 6
+        width: 104
+        height: 170
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc255f45b7bf5f0419d069b61d008988
+      internalID: -1324880658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_10
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 6
+        width: 104
+        height: 171
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9461ef468d0bbf439add1ea5c57d3f2
+      internalID: 1972717023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_11
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 6
+        width: 104
+        height: 171
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355e3aef7be2fc441b7c1ea8a3086ff7
+      internalID: 1525466695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_12
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 7
+        width: 104
+        height: 171
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f822cf1d13077f64aa692894c7ae6e0c
+      internalID: -602749668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_13
+      rect:
+        serializedVersion: 2
+        x: 2651
+        y: 9
+        width: 104
+        height: 171
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba1bbcb188b2bd418de865657a66fd8
+      internalID: 1927173988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_14
+      rect:
+        serializedVersion: 2
+        x: 2851
+        y: 12
+        width: 104
+        height: 172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada5c56455e3f5148bbb79fce9938a5c
+      internalID: 1283867225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_15
+      rect:
+        serializedVersion: 2
+        x: 3051
+        y: 13
+        width: 104
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4d8a57972db4140aa6f31113f83dfb
+      internalID: -1889990644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_16
+      rect:
+        serializedVersion: 2
+        x: 3251
+        y: 13
+        width: 104
+        height: 174
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e13c49a2efc58043b87e548d79e379b
+      internalID: -33377560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_17
+      rect:
+        serializedVersion: 2
+        x: 3452
+        y: 12
+        width: 104
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f264fb0513264c4e9bb52754b8d4779
+      internalID: -883778762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_18
+      rect:
+        serializedVersion: 2
+        x: 3652
+        y: 12
+        width: 106
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc0765ec9f68314cb1cc3f9b4e0e0e6
+      internalID: 48547948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_19
+      rect:
+        serializedVersion: 2
+        x: 3851
+        y: 11
+        width: 109
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb34dc58a6a0ba46828aa9a60fe25a9
+      internalID: -2130134981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_20
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 10
+        width: 112
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72cd9052c225584da424382d301f205
+      internalID: 1414123618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_21
+      rect:
+        serializedVersion: 2
+        x: 4248
+        y: 10
+        width: 116
+        height: 182
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6faa54302e11a84d891af57b01905d3
+      internalID: 285148211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_22
+      rect:
+        serializedVersion: 2
+        x: 4448
+        y: 9
+        width: 116
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d907d6c536dfb4ea326b7177391ba1
+      internalID: -867248748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_23
+      rect:
+        serializedVersion: 2
+        x: 4648
+        y: 9
+        width: 116
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802ae6bd286a53346b4d5dbc71a63694
+      internalID: 112419411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_24
+      rect:
+        serializedVersion: 2
+        x: 4848
+        y: 9
+        width: 116
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6307f10d9aec0340a1e65f7e2ee7159
+      internalID: 2046884423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_25
+      rect:
+        serializedVersion: 2
+        x: 5048
+        y: 8
+        width: 116
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad05c53cf5a5e24897dcc8789ccd324
+      internalID: 1698549342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_26
+      rect:
+        serializedVersion: 2
+        x: 5248
+        y: 8
+        width: 116
+        height: 182
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d25b0c8bffc628448f49b59e931e46b
+      internalID: 120046427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_27
+      rect:
+        serializedVersion: 2
+        x: 5448
+        y: 7
+        width: 116
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a768fa17f16d344581b83e8492ed88f
+      internalID: 1032987237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_28
+      rect:
+        serializedVersion: 2
+        x: 5648
+        y: 6
+        width: 116
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb028288dedd4448b4744650513e3f9
+      internalID: -474906947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_29
+      rect:
+        serializedVersion: 2
+        x: 5849
+        y: 5
+        width: 114
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99f7c73b58f9af4fbf4cf1c3152c338
+      internalID: -650383279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_30
+      rect:
+        serializedVersion: 2
+        x: 6051
+        y: 5
+        width: 109
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa5f629a4c7eba43936663fdcbc9167
+      internalID: 1228742835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_31
+      rect:
+        serializedVersion: 2
+        x: 6252
+        y: 4
+        width: 106
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6620d580767698f43a5b853c91ac6cc8
+      internalID: -51679353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_32
+      rect:
+        serializedVersion: 2
+        x: 6453
+        y: 4
+        width: 103
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641910b744fe2d940be6b9c127053528
+      internalID: 1939438648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_33
+      rect:
+        serializedVersion: 2
+        x: 6652
+        y: 5
+        width: 103
+        height: 174
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3870139d6de7a2f4985d6ba100c139a3
+      internalID: 674935972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING SALTO ARM_34
+      rect:
+        serializedVersion: 2
+        x: 6851
+        y: 6
+        width: 104
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c974b266e3d2f34ba16cd56eb683c01
+      internalID: -835647117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      KING SALTO ARM_0: -940894249
+      KING SALTO ARM_1: -618918256
+      KING SALTO ARM_10: 1972717023
+      KING SALTO ARM_11: 1525466695
+      KING SALTO ARM_12: -602749668
+      KING SALTO ARM_13: 1927173988
+      KING SALTO ARM_14: 1283867225
+      KING SALTO ARM_15: -1889990644
+      KING SALTO ARM_16: -33377560
+      KING SALTO ARM_17: -883778762
+      KING SALTO ARM_18: 48547948
+      KING SALTO ARM_19: -2130134981
+      KING SALTO ARM_2: 1306195175
+      KING SALTO ARM_20: 1414123618
+      KING SALTO ARM_21: 285148211
+      KING SALTO ARM_22: -867248748
+      KING SALTO ARM_23: 112419411
+      KING SALTO ARM_24: 2046884423
+      KING SALTO ARM_25: 1698549342
+      KING SALTO ARM_26: 120046427
+      KING SALTO ARM_27: 1032987237
+      KING SALTO ARM_28: -474906947
+      KING SALTO ARM_29: -650383279
+      KING SALTO ARM_3: -663509509
+      KING SALTO ARM_30: 1228742835
+      KING SALTO ARM_31: -51679353
+      KING SALTO ARM_32: 1939438648
+      KING SALTO ARM_33: 674935972
+      KING SALTO ARM_34: -835647117
+      KING SALTO ARM_4: -1420208508
+      KING SALTO ARM_5: -1998064069
+      KING SALTO ARM_6: 2065020859
+      KING SALTO ARM_7: -545712497
+      KING SALTO ARM_8: -735918175
+      KING SALTO ARM_9: -1324880658
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

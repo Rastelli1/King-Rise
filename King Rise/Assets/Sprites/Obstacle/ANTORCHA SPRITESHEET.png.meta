@@ -1,0 +1,932 @@
+fileFormatVersion: 2
+guid: 5dcb740e418b4a947a7cd1677afb3453
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 5
+        width: 55
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd554e5cda3e5904da5e64a1527cc73f
+      internalID: -392006422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 6
+        width: 55
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b169b6f171fd3f24fbe5440f9e118590
+      internalID: -39236670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 5
+        width: 55
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a034056cb732d2b408b145abcb8cb34c
+      internalID: -1734873251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 4
+        width: 55
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae94e2d4cd810a4f9fc7133f04bd78c
+      internalID: 2115338110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_4
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 4
+        width: 55
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8795319f34339408506538a9db4362
+      internalID: 1638136685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_5
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 5
+        width: 55
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff84880be24a74242882a8f9e0e3df97
+      internalID: 845817585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_6
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 5
+        width: 55
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea28ca5c244de842bae0d63694456dc
+      internalID: 1085099691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_7
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 5
+        width: 55
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1decc9711606dd40b64f90a865c9837
+      internalID: -1834821577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_8
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 5
+        width: 55
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29be76e25e9e69e4888f1f4eb6310adf
+      internalID: -422621660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_9
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 5
+        width: 55
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47410f34c34c3cd419b344fce79e432a
+      internalID: 313541035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_10
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 5
+        width: 55
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b317162cf2881a46b9c3f227b904d21
+      internalID: 891436191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_11
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 5
+        width: 55
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6619980ddb33f4f8f613befd1ed32b
+      internalID: -224325441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_12
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 5
+        width: 55
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1e35cda8782694191c16eb91bd36d9
+      internalID: 1704067724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_13
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 5
+        width: 55
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6f8075fbaff6f4da1a11d3e5e92437
+      internalID: -1599965460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_14
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 5
+        width: 55
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984b412c111d55d4db4b95e22ed79ddd
+      internalID: -752236553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_15
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 5
+        width: 54
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7627033a76a55064eb19f03668d43c61
+      internalID: 1106999020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_16
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 5
+        width: 54
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eaea89b9b874964dbc030e758a7d927
+      internalID: -1239313084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_17
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 5
+        width: 53
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049ab3950b867714e8580093a4777085
+      internalID: -1438186260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_18
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 5
+        width: 53
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7bfe2be956cfe94fbab5f1935701470
+      internalID: -314959858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_19
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 5
+        width: 52
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b42d2b8d6dc064bb1cb07db2ccb88c
+      internalID: 1515185569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_20
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 5
+        width: 52
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d069abe075f2c3b498957fb86137b5ce
+      internalID: -1498128203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_21
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 5
+        width: 53
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c985b9a6a7e3b094f8dbc2252942a841
+      internalID: 275682511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_22
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 5
+        width: 53
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f1138d27333504fb83da87666d56b5
+      internalID: -1373243989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_23
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 5
+        width: 53
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1852323178a010848895e0d40964b66e
+      internalID: 656673938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_24
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 5
+        width: 53
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f562681cfec8344f8da2eba45eadade
+      internalID: 1670138123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_25
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 5
+        width: 53
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b69733ceaa7c041bbcce830c73d5e3
+      internalID: 1296621374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_26
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 5
+        width: 53
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82552d5accae2645a1c9307682d7eb6
+      internalID: -1703074477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_27
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 5
+        width: 53
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5655c2bb1bf7686418e2db5389f71abf
+      internalID: -1605450235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_28
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 5
+        width: 53
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ef5e6ff992e9b42806db0672cde8d5
+      internalID: 1423562690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_29
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 5
+        width: 53
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ad51a08a7a4284bae243e47e6dc3ae
+      internalID: 304076267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_30
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 5
+        width: 54
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc36ad18e80eb245878448eba1f21d3
+      internalID: -954217801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_31
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 5
+        width: 53
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908ff358244e4ad4db9f09cbe0af2780
+      internalID: 795470320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_32
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 5
+        width: 53
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d092dbebf74614d9388a31a9a92a96
+      internalID: -1234206987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_33
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 5
+        width: 53
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd1b3021e99fa14ab1d4411655eb575
+      internalID: 1292400032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_34
+      rect:
+        serializedVersion: 2
+        x: 2389
+        y: 5
+        width: 53
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3a24411aede324b9410f1e58edee84
+      internalID: -1235290018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANTORCHA SPRITESHEET_35
+      rect:
+        serializedVersion: 2
+        x: 2459
+        y: 5
+        width: 53
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d70b95bc3989df43892bd37d71f4c23
+      internalID: -1676714143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ANTORCHA SPRITESHEET_0: -392006422
+      ANTORCHA SPRITESHEET_1: -39236670
+      ANTORCHA SPRITESHEET_10: 891436191
+      ANTORCHA SPRITESHEET_11: -224325441
+      ANTORCHA SPRITESHEET_12: 1704067724
+      ANTORCHA SPRITESHEET_13: -1599965460
+      ANTORCHA SPRITESHEET_14: -752236553
+      ANTORCHA SPRITESHEET_15: 1106999020
+      ANTORCHA SPRITESHEET_16: -1239313084
+      ANTORCHA SPRITESHEET_17: -1438186260
+      ANTORCHA SPRITESHEET_18: -314959858
+      ANTORCHA SPRITESHEET_19: 1515185569
+      ANTORCHA SPRITESHEET_2: -1734873251
+      ANTORCHA SPRITESHEET_20: -1498128203
+      ANTORCHA SPRITESHEET_21: 275682511
+      ANTORCHA SPRITESHEET_22: -1373243989
+      ANTORCHA SPRITESHEET_23: 656673938
+      ANTORCHA SPRITESHEET_24: 1670138123
+      ANTORCHA SPRITESHEET_25: 1296621374
+      ANTORCHA SPRITESHEET_26: -1703074477
+      ANTORCHA SPRITESHEET_27: -1605450235
+      ANTORCHA SPRITESHEET_28: 1423562690
+      ANTORCHA SPRITESHEET_29: 304076267
+      ANTORCHA SPRITESHEET_3: 2115338110
+      ANTORCHA SPRITESHEET_30: -954217801
+      ANTORCHA SPRITESHEET_31: 795470320
+      ANTORCHA SPRITESHEET_32: -1234206987
+      ANTORCHA SPRITESHEET_33: 1292400032
+      ANTORCHA SPRITESHEET_34: -1235290018
+      ANTORCHA SPRITESHEET_35: -1676714143
+      ANTORCHA SPRITESHEET_4: 1638136685
+      ANTORCHA SPRITESHEET_5: 845817585
+      ANTORCHA SPRITESHEET_6: 1085099691
+      ANTORCHA SPRITESHEET_7: -1834821577
+      ANTORCHA SPRITESHEET_8: -422621660
+      ANTORCHA SPRITESHEET_9: 313541035
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1174 @@
+fileFormatVersion: 2
+guid: 08085db45f6bbd7418e98f037ccf6ab5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KING IDLE 2_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 6
+        width: 106
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087ca8a8e1603184b95b68a8cf209bb1
+      internalID: 300660357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 6
+        width: 106
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047a226673ee63f4bb05b2b925b837b0
+      internalID: -1753454302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_2
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 6
+        width: 105
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fd93cdc83de7c45964e7b382ca3a5a
+      internalID: -1872328670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_3
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 6
+        width: 105
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bffe81e3e62124289151099a9f983d
+      internalID: -1513224190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_4
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 6
+        width: 106
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79235146506ac654e8840e660569e301
+      internalID: -1626167896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_5
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 6
+        width: 105
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afc556d31ae4d743ab96f023d9ba282
+      internalID: -1912463135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_6
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 6
+        width: 104
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b4a4652e18abe4ebd65e678aae2f41
+      internalID: -1218893067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_7
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 6
+        width: 106
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76214dd5f0532144f81b82f9039e1411
+      internalID: -1947526625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_8
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 6
+        width: 106
+        height: 172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83650a6898a1b2449ebc766df2c4711
+      internalID: -1742632408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_9
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 6
+        width: 105
+        height: 172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb837fbc6ce7014cad96ac7c1202a4d
+      internalID: 876876701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_10
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 6
+        width: 104
+        height: 172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eca54a961ff2364888899bc533d98fd
+      internalID: 283772995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_11
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 6
+        width: 106
+        height: 172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51b0813ac0922442a66cef418b62bfe
+      internalID: -830755417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_12
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 6
+        width: 105
+        height: 172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3875f33bab8bad2419c7b21158536e4d
+      internalID: 878873933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_13
+      rect:
+        serializedVersion: 2
+        x: 2651
+        y: 6
+        width: 104
+        height: 172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7b007972918dc44ad4cd499a18d567
+      internalID: 1420565392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_14
+      rect:
+        serializedVersion: 2
+        x: 2850
+        y: 6
+        width: 106
+        height: 172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b726602ea11c5648a385b8d40574d47
+      internalID: 1360395738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_15
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 6
+        width: 106
+        height: 172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9bd2a080418084fa509310ec599959
+      internalID: 2044939114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_16
+      rect:
+        serializedVersion: 2
+        x: 3251
+        y: 6
+        width: 104
+        height: 172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803248a8fc436b9429acdbe1a76cc90f
+      internalID: 720038831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_17
+      rect:
+        serializedVersion: 2
+        x: 3450
+        y: 6
+        width: 106
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25a915bd3002284386484758d6901ca
+      internalID: -1858996647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_18
+      rect:
+        serializedVersion: 2
+        x: 3650
+        y: 6
+        width: 106
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813d3162006dd9f4ba961e2a4bbc5241
+      internalID: 121464035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_19
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 6
+        width: 105
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acf3f43eef31ca44abe40d33c162fc6
+      internalID: -148383752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_20
+      rect:
+        serializedVersion: 2
+        x: 4051
+        y: 6
+        width: 105
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be0e0b2f1579794dab98f28363453d5
+      internalID: 693552751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_21
+      rect:
+        serializedVersion: 2
+        x: 4250
+        y: 6
+        width: 106
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e270c9140f497db4ba7fb692a0a0ae9a
+      internalID: 1814909835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_22
+      rect:
+        serializedVersion: 2
+        x: 4450
+        y: 6
+        width: 105
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbe2a2bbd915f341ae31319bf3ec161
+      internalID: -914167731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_23
+      rect:
+        serializedVersion: 2
+        x: 4651
+        y: 6
+        width: 105
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0223e39468fbe024faaa1caf92b4fc07
+      internalID: 2105086948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_24
+      rect:
+        serializedVersion: 2
+        x: 4850
+        y: 6
+        width: 105
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9303020681c1b24bab79477a1d22997
+      internalID: 2032065461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_25
+      rect:
+        serializedVersion: 2
+        x: 5050
+        y: 6
+        width: 106
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d51870acebbac64eb8243b3cb684549
+      internalID: -949195646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_26
+      rect:
+        serializedVersion: 2
+        x: 5250
+        y: 6
+        width: 105
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4f4e9b6e340d34d9b6914e263e9716
+      internalID: -1399309614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_27
+      rect:
+        serializedVersion: 2
+        x: 5450
+        y: 6
+        width: 105
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e889a1f5596e64eb15fecae262a8c5
+      internalID: 1713745446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_28
+      rect:
+        serializedVersion: 2
+        x: 5650
+        y: 6
+        width: 105
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a51140077b557a43802c9829140be23
+      internalID: 1264593998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_29
+      rect:
+        serializedVersion: 2
+        x: 5850
+        y: 6
+        width: 105
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ba46bcbf543174eb7513bca6061cd7
+      internalID: 631182584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_30
+      rect:
+        serializedVersion: 2
+        x: 6051
+        y: 6
+        width: 104
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b65216f63cb17479cefea672f465b2
+      internalID: 36719325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_31
+      rect:
+        serializedVersion: 2
+        x: 6250
+        y: 6
+        width: 105
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da43fa9a964135b45a638f4d52c3c8b4
+      internalID: -1175543068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_32
+      rect:
+        serializedVersion: 2
+        x: 6450
+        y: 6
+        width: 105
+        height: 174
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7543e5536c08147a4ff3275ea49b7f
+      internalID: -701167972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_33
+      rect:
+        serializedVersion: 2
+        x: 6651
+        y: 6
+        width: 104
+        height: 174
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea142a0a66d9184e942cf01d0302e4e
+      internalID: 1807962223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_34
+      rect:
+        serializedVersion: 2
+        x: 6850
+        y: 6
+        width: 105
+        height: 174
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329601cf7e0382a4f84637c5a55877f3
+      internalID: -135199943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_35
+      rect:
+        serializedVersion: 2
+        x: 7050
+        y: 6
+        width: 106
+        height: 174
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f3096ab3e030847b5730b111d26916
+      internalID: 2020853009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_36
+      rect:
+        serializedVersion: 2
+        x: 7250
+        y: 6
+        width: 105
+        height: 174
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adc4e6caeceb58478026d0e2527fca3
+      internalID: 1698085028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_37
+      rect:
+        serializedVersion: 2
+        x: 7450
+        y: 6
+        width: 105
+        height: 174
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4108ecb3962f3dc4982d948c25349c7d
+      internalID: 1973413330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_38
+      rect:
+        serializedVersion: 2
+        x: 7650
+        y: 6
+        width: 105
+        height: 174
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8497ae8ab8e100845b766996eb02c59f
+      internalID: -1126274316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_39
+      rect:
+        serializedVersion: 2
+        x: 7850
+        y: 6
+        width: 105
+        height: 174
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff721d3af0b2a524598f2dccd41aa08c
+      internalID: 2083990728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_40
+      rect:
+        serializedVersion: 2
+        x: 8051
+        y: 6
+        width: 104
+        height: 174
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4586b1ba2ffd040b64a540fb545572
+      internalID: -998653160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_41
+      rect:
+        serializedVersion: 2
+        x: 8250
+        y: 6
+        width: 105
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8325e227f5148e74a8a796f9081414c6
+      internalID: -1457972835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_42
+      rect:
+        serializedVersion: 2
+        x: 8450
+        y: 6
+        width: 105
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb33918294a27f438d0cb76c65a09db
+      internalID: -1525991072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_43
+      rect:
+        serializedVersion: 2
+        x: 8651
+        y: 6
+        width: 104
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150361acfa3273243abd85e12236f4cb
+      internalID: -1725426505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_44
+      rect:
+        serializedVersion: 2
+        x: 8850
+        y: 6
+        width: 105
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22ee002cb3cbdb469fad0c908e08486
+      internalID: 2067438750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_45
+      rect:
+        serializedVersion: 2
+        x: 9050
+        y: 6
+        width: 106
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cffb78b60191f4a4b92dcbebd8bfa5e6
+      internalID: -156046010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KING IDLE 2_46
+      rect:
+        serializedVersion: 2
+        x: 9250
+        y: 6
+        width: 105
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3653c4cbfc269ac40a100b895606113a
+      internalID: 657582605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      KING IDLE 2_0: 300660357
+      KING IDLE 2_1: -1753454302
+      KING IDLE 2_10: 283772995
+      KING IDLE 2_11: -830755417
+      KING IDLE 2_12: 878873933
+      KING IDLE 2_13: 1420565392
+      KING IDLE 2_14: 1360395738
+      KING IDLE 2_15: 2044939114
+      KING IDLE 2_16: 720038831
+      KING IDLE 2_17: -1858996647
+      KING IDLE 2_18: 121464035
+      KING IDLE 2_19: -148383752
+      KING IDLE 2_2: -1872328670
+      KING IDLE 2_20: 693552751
+      KING IDLE 2_21: 1814909835
+      KING IDLE 2_22: -914167731
+      KING IDLE 2_23: 2105086948
+      KING IDLE 2_24: 2032065461
+      KING IDLE 2_25: -949195646
+      KING IDLE 2_26: -1399309614
+      KING IDLE 2_27: 1713745446
+      KING IDLE 2_28: 1264593998
+      KING IDLE 2_29: 631182584
+      KING IDLE 2_3: -1513224190
+      KING IDLE 2_30: 36719325
+      KING IDLE 2_31: -1175543068
+      KING IDLE 2_32: -701167972
+      KING IDLE 2_33: 1807962223
+      KING IDLE 2_34: -135199943
+      KING IDLE 2_35: 2020853009
+      KING IDLE 2_36: 1698085028
+      KING IDLE 2_37: 1973413330
+      KING IDLE 2_38: -1126274316
+      KING IDLE 2_39: 2083990728
+      KING IDLE 2_4: -1626167896
+      KING IDLE 2_40: -998653160
+      KING IDLE 2_41: -1457972835
+      KING IDLE 2_42: -1525991072
+      KING IDLE 2_43: -1725426505
+      KING IDLE 2_44: 2067438750
+      KING IDLE 2_45: -156046010
+      KING IDLE 2_46: 657582605
+      KING IDLE 2_5: -1912463135
+      KING IDLE 2_6: -1218893067
+      KING IDLE 2_7: -1947526625
+      KING IDLE 2_8: -1742632408
+      KING IDLE 2_9: 876876701
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
